@@ -82,11 +82,11 @@ proxy-groups:
   - name: 🎮FREE FIRE
     type: select
     proxies:
-      - JL-PUBG1
+      - 
   - name: 🔰SOCIAL PACK
     type: select
     proxies:
-      - SS-MLBB1
+      - 
   - name: PROXY 🚀
     type: select
     proxies:
