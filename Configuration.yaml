@@ -72,7 +72,7 @@ proxy-groups:
   - name: select
     type: url-test
     proxies:
-    - SG5 MLBB
+    - ccc
     
 rules:
   - MATCH,OPENTUNNEL
