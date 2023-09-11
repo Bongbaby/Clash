@@ -77,7 +77,13 @@ proxy-groups:
     type: select
     proxies:
       - KH-PUBG1
-    
+  - name: PROXY 🚀
+    type: select
+    proxies:
+      - PROXY AUTO♻️
+      - V2-MLBB1
+      - KH-PUBG1
+
 rules:
   - DOMAIN-SUFFIX,ad.com,REJECT
   - GEOIP,IR,DIRECT
