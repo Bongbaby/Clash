@@ -73,11 +73,8 @@ proxies:
     plugin-opts:
        mode: http
        host: m.mobilelegends.com
-           - h2
-           - http/1.1
-        skip-cert-verify: true
 
-  - name: V2-PUBG1
+  - name: JL-PUBG1
     server: kh2.vpnjantit.com
     port: 10000
     type: vmess
@@ -113,7 +110,7 @@ proxy-groups:
   - name: 🎮FREE FIRE
     type: select
     proxies:
-      - V2-PUBG1
+      - JL-PUBG1
   - name: 🔰SOCIAL PACK
     type: select
     proxies:
