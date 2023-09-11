@@ -107,6 +107,7 @@ proxy-groups:
       - PROXY AUTO♻️
       - V2-MLBB1
       - KH-PUBG1
+      - V2-PUBG1
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
   - name: Auto-Fallback 🌀
@@ -114,6 +115,7 @@ proxy-groups:
     proxies:
       - V2-MLBB1
       - KH-PUBG1
+      - V2-PUBG1
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
   - name: PROXY AUTO♻️
@@ -121,6 +123,7 @@ proxy-groups:
     proxies:
       - V2-MLBB1
       - KH-PUBG1
+      - V2-PUBG1
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
   - name: ♻️AUTO
@@ -128,6 +131,7 @@ proxy-groups:
     proxies:
       - V2-MLBB1
       - KH-PUBG1
+      - V2-PUBG1
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
 
