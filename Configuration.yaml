@@ -71,7 +71,10 @@ proxies:
     plugin: obfs
     plugin-opts:
        mode: http
-       host: m.mobilelegends.com   
+       host: m.mobilelegends.com
+           - h2
+           - http/1.1
+        skip-cert-verify: true
         
 proxy-groups:
   - name: 🔰 Server List
