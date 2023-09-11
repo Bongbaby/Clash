@@ -45,6 +45,22 @@ proxies:
       path: /u/opentunnel.net-jhcguf
       headers:
         Host: m.mobilelegends.com
+
+  - name: V2-MLBB2
+    server: sgv-5.openv2ray.com
+    port: 443
+    type: vmess
+    uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5
+    alterId: 16
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /u/opentunnel.net-jhcguf
+      headers:
+        Host: m.mobilelegends.com
         
   - name: KH-PUBG1
     server: kh2.vpnjantit.com
@@ -90,6 +106,7 @@ proxy-groups:
     type: select
     proxies:
       - V2-MLBB1
+      - V2-MLBB2
   - name: 🎮PUBG MOBILE 
     type: select
     proxies:
