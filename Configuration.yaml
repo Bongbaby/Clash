@@ -62,7 +62,7 @@ proxies:
         Host: m.mobilelegends.com
     udp: true
 
-   - name: SS-MLBB1
+   - name: SS-MLBB2
     type: ss
     server: sg1.ssocks.xyz
     port: 2087
@@ -82,8 +82,8 @@ proxy-groups:
   - name: MLBB PROMO
     type: select
     proxies:
-      - SG5 MLBB
-      - SS-MLBB1
+      - SG5 MLBB1
+      - SS-MLBB2
   - name: PUBG MOBILE
     type: select
     proxies:
