@@ -45,7 +45,7 @@ proxies:
       headers:
         Host: m.mobilelegends.com
         
-  - name: 🇰🇭KH MLBB
+  - name: "🇰🇭KH MLBB"
     server: kh2.vpnjantit.com
     port: 10000
     type: vmess
@@ -67,7 +67,7 @@ proxy-groups:
     type: select
     proxies:
       - SG5 MLBB
-      - 🇰🇭KH MLBB
+      - "🇰🇭KH MLBB"
     
 rules:
   - MATCH,OPENTUNNEL
