@@ -77,8 +77,8 @@ proxy-groups:
   - name: 🔰 Server List
     type: select
     proxies:
-      - MLBB PROMO
-  - name: MLBB PROMO
+      - 🎮MLBB PROMO
+  - name: 🎮MLBB PROMO
     type: select
     proxies:
       - V2-MLBB1
