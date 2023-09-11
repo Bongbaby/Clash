@@ -104,11 +104,17 @@ proxy-groups:
     type: select
     proxies:
       - V2-MLBB1
-      - V2-MLBB2
   - name: 🎮PUBG MOBILE 
     type: select
     proxies:
+      - V2-MLBB2
+  - name: 🎮FREE FIRE
+    type: select
+    proxies:
       - V2-PUBG1
+  - name: 🔰SOCIAL PACK
+    type: select
+    proxies:
       - SS-MLBB1
   - name: PROXY 🚀
     type: select
