@@ -92,6 +92,7 @@ proxy-groups:
     proxies:
       - 🎮MLBB PROMO
       - 🎮PUBG MOBILE
+      - 🎮FREE FIRE
   - name: 🎮MLBB PROMO
     type: select
     proxies:
@@ -100,6 +101,10 @@ proxy-groups:
     type: select
     proxies:
       - KH-PUBG1
+      - V2-PUBG1
+  - name: 🎮FREE FIRE
+    type: select
+    proxies:
       - V2-PUBG1
   - name: PROXY 🚀
     type: select
