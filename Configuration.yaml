@@ -68,6 +68,13 @@ proxy-groups:
     proxies:
       - "SG5 MLBB"
       - "🇰🇭KH MLBB"
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+  - name: AUTO
+    type: url-test
+    proxies:
+    - SG5 MLBB
     
 rules:
   - MATCH,OPENTUNNEL
+  - MATCH,AUTO
