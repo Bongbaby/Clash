@@ -45,9 +45,6 @@ proxies:
       path: /u/opentunnel.net-jhcguf
       headers:
         Host: m.mobilelegends.com
-       - h2
-       - http/1.1
-    skip-cert-verify: true
         
   - name: KH-PUBG1
     server: kh2.vpnjantit.com
@@ -81,10 +78,6 @@ proxies:
       path: /vpnjantit
       headers:
         Host: m.mobilelegends.com
-    udp: true
-       - h2
-       - http/1.1
-    skip-cert-verify: true
         
 proxy-groups:
   - name: 🔰 Server List
