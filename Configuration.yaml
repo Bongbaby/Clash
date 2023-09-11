@@ -29,7 +29,7 @@ dns:
     - 8.8.4.4
     
 proxies:
-  - name: "🇸🇬SG5 MLBB"
+  - name: 🇸🇬SG5 MLBB
     server: sgv-5.openv2ray.com
     port: 443
     type: vmess
@@ -66,7 +66,7 @@ proxy-groups:
   - name: OPENTUNNEL
     type: select
     proxies:
-      - "🇸🇬SG5 MLBB"
+      - 🇸🇬SG5 MLBB
       - "🇰🇭KH MLBB"
     
 rules:
