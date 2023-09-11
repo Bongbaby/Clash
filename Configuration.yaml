@@ -67,11 +67,13 @@ proxy-groups:
     type: select
     proxies:
       - MLBB PROMO
+      - PUBG MOBILE 
   - name: MLBB PROMO
     type: select
     proxies:
       - SG5 MLBB
       - KH MLBB
+      
     
 rules:
   - MATCH,OPENTUNNEL
