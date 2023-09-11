@@ -69,7 +69,7 @@ proxy-groups:
       - "SG5 MLBB"
       - "🇰🇭KH MLBB"
     interval: 300
-  - name: SG5 MLBB
+  - name: select
     type: url-test
     proxies:
     - SG5 MLBB
