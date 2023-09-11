@@ -63,7 +63,7 @@ proxies:
         Host: m.mobilelegends.com
     udp: true
 
-  - name: V2-FREE
+  - name: KH-FREE1
     server: kh2.vpnjantit.com
     port: 10000
     type: vmess
@@ -97,14 +97,14 @@ proxy-groups:
   - name: 🎮FREE FIRE
     type: select
     proxies:
-      - V2-FREE
+      - KH-FREE1
   - name: PROXY 🚀
     type: select
     proxies:
       - PROXY AUTO♻️
       - V2-MLBB1
       - KH-PUBG1
-      - V2-FREE
+      - KH-FREE1
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
   - name: Auto-Fallback 🌀
@@ -112,7 +112,7 @@ proxy-groups:
     proxies:
       - V2-MLBB1
       - KH-PUBG1
-      - V2-FREE
+      - KH-FREE1
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
   - name: PROXY AUTO♻️
@@ -120,7 +120,7 @@ proxy-groups:
     proxies:
       - V2-MLBB1
       - KH-PUBG1
-      - V2-FREE
+      - KH-FREE1
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
   - name: ♻️AUTO
@@ -128,7 +128,7 @@ proxy-groups:
     proxies:
       - V2-MLBB1
       - KH-PUBG1
-      - V2-FREE
+      - KH-FREE1
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
 
