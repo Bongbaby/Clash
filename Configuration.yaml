@@ -63,7 +63,7 @@ proxies:
     udp: true
         
 proxy-groups:
-  - name: OPENTUNNEL
+  - name: 🔰 Server List
     type: select
     proxies:
       - MLBB PROMO
@@ -78,4 +78,4 @@ proxy-groups:
       - KH PUBG
       
 rules:
-  - MATCH,OPENTUNNEL
+  - MATCH,🔰 Server List
