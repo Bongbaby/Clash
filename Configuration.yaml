@@ -161,6 +161,3 @@ rules:
   - IP-CIDR,1.0.1.0/16,Auto-Fallback 🌀
   - IP-CIDR,1.0.8.0/18,Auto-Fallback 🌀
   - IP-CIDR,1.2.0.0/32,Auto-Fallback 🌀
-      
-rules:
-  - MATCH,🔰 Server List
