@@ -65,6 +65,23 @@ proxies:
        - h2
        - http/1.1
     skip-cert-verify: true
+
+  - name: V2-PUBG1
+    server: kh2.vpnjantit.com
+    port: 10000
+    type: vmess
+    uuid: fc8cac60-4d9a-11ee-87eb-ff33c46cf485
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: m.mobilelegends.com
+    network: ws
+    ws-opts:
+      path: /vpnjantit
+      headers:
+        Host: m.mobilelegends.com
+    udp: true
         
 proxy-groups:
   - name: 🔰 Server List
@@ -81,6 +98,7 @@ proxy-groups:
     type: select
     proxies:
       - KH-PUBG1
+      - V2-PUBG1
   - name: PROXY 🚀
     type: select
     proxies:
