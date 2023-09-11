@@ -69,8 +69,8 @@ proxy-groups:
     proxies:
       - 🎮MLBB PROMO
       - 🎮PUBG MOBILE 
-      - 🎮FREE FIRE
-      - 🔰SOCIAL PACK
+      - 
+      - 
   - name: 🎮MLBB PROMO
     type: select
     proxies:
