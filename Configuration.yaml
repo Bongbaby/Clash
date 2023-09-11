@@ -73,6 +73,12 @@ proxy-groups:
     proxies:
       - PROXY AUTO♻️
       - cc
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+  - name: PROXY AUTO♻️
+    type: url-test
+    proxies:
+    - cc
     
 rules:
   - MATCH,OPENTUNNEL
