@@ -72,11 +72,9 @@ proxy-groups:
     type: select
     proxies:
       - SG5 MLBB
-      - KH PUBG
   - name: PUBG MOBILE
     type: select
     proxies:
-      - SG5 MLBB
       - KH PUBG
       
 rules:
