@@ -46,7 +46,7 @@ proxies:
       headers:
         Host: m.mobilelegends.com
         
-  - name: KH-MLBB2
+  - name: KH-PUBG1
     server: kh2.vpnjantit.com
     port: 10000
     type: vmess
@@ -76,7 +76,7 @@ proxy-groups:
   - name: 🎮PUBG MOBILE 
     type: select
     proxies:
-      - KH-MLBB2
+      - KH-PUBG1
     
 rules:
   - DOMAIN-SUFFIX,ad.com,REJECT
