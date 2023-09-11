@@ -105,11 +105,11 @@ proxy-groups:
     proxies:
       - V2-MLBB1
       - V2-MLBB2
-      - SS-MLBB1
   - name: 🎮PUBG MOBILE 
     type: select
     proxies:
       - V2-PUBG1
+      - SS-MLBB1
   - name: PROXY 🚀
     type: select
     proxies:
