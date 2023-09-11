@@ -93,7 +93,6 @@ proxy-groups:
     type: select
     proxies:
       - V2-MLBB1
-      - KH-PUBG1
   - name: 🎮PUBG MOBILE 
     type: select
     proxies:
