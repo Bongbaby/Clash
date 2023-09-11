@@ -110,6 +110,57 @@ proxy-groups:
     type: select
     proxies:
       - V2-PUBG1
+  - name: PROXY 🚀
+    type: select
+    proxies:
+      - PROXY AUTO♻️
+      - V2-MLBB1
+      - V2-MLBB2
+      - SS-MLBB1
+      - V2-PUBG1
+        url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+  - name: Auto-Fallback 🌀
+    type: fallback
+    proxies:
+      - V2-MLBB1
+      - V2-MLBB2
+      - SS-MLBB1
+      - V2-PUBG1
+          url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+  - name: PROXY AUTO♻️
+    type: url-test
+    proxies:
+      - V2-MLBB1
+      - V2-MLBB2
+      - SS-MLBB1
+      - V2-PUBG1
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+  - name: ♻️AUTO
+    type: url-test
+    proxies:
+      - V2-MLBB1
+      - V2-MLBB2
+      - SS-MLBB1
+      - V2-PUBG1
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+    
+rules:
+  - DOMAIN-SUFFIX,ad.com,REJECT
+  - GEOIP,IR,DIRECT
+  - MATCH,🔰 Server List
+  - IP-CIDR,1.3.0.0/8,🔰 Server List
+  - IP-CIDR,1.0.1.0/16,🔰 Server List
+  - IP-CIDR,1.0.8.0/18,🔰 Server List
+  - IP-CIDR,1.2.0.0/32,🔰 Server List
+  - MATCH,Auto-Fallback 🌀
+  - IP-CIDR,1.3.0.0/8,Auto-Fallback 🌀
+  - IP-CIDR,1.0.1.0/16,Auto-Fallback 🌀
+  - IP-CIDR,1.0.8.0/18,Auto-Fallback 🌀
+  - IP-CIDR,1.2.0.0/32,Auto-Fallback 🌀
       
 rules:
   - MATCH,🔰 Server List
