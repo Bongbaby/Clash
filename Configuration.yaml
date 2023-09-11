@@ -69,11 +69,10 @@ proxy-groups:
       - "SG5 MLBB"
       - "🇰🇭KH MLBB"
     interval: 300
-  - name: AUTO
+  - name: SG5 MLBB
     type: url-test
     proxies:
     - SG5 MLBB
     
 rules:
   - MATCH,OPENTUNNEL
-  - MATCH,AUTO
