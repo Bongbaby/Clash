@@ -61,6 +61,17 @@ proxies:
       headers:
         Host: m.mobilelegends.com
     udp: true
+
+   - name: SS-MLBB1
+    type: ss
+    server: sg1.ssocks.xyz
+    port: 2087
+    cipher: chacha20-ietf-poly1305
+    password: kh5QLMQsTTACRVrq
+    plugin: obfs
+    plugin-opts:
+       mode: http
+       host: m.mobilelegends.com   
         
 proxy-groups:
   - name: 🔰 Server List
@@ -72,6 +83,7 @@ proxy-groups:
     type: select
     proxies:
       - SG5 MLBB
+      - SS-MLBB1
   - name: PUBG MOBILE
     type: select
     proxies:
