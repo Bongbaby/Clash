@@ -62,34 +62,6 @@ proxies:
       headers:
         Host: m.mobilelegends.com
     udp: true
-
-   - name: SS-MLBB1
-    type: ss
-    server: sg1.ssocks.xyz
-    port: 2087
-    cipher: chacha20-ietf-poly1305
-    password: kh5QLMQsTTACRVrq
-    plugin: obfs
-    plugin-opts:
-       mode: http
-       host: m.mobilelegends.com
-
-  - name: JL-PUBG1
-    server: kh2.vpnjantit.com
-    port: 10000
-    type: vmess
-    uuid: fc8cac60-4d9a-11ee-87eb-ff33c46cf485
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: m.mobilelegends.com
-    network: ws
-    ws-opts:
-      path: /vpnjantit
-      headers:
-        Host: m.mobilelegends.com
-    udp: true
         
 proxy-groups:
   - name: 🔰 Server List
