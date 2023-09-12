@@ -77,7 +77,7 @@ proxies:
     ws-opts:
       path: /vpnjantit
       headers:
-        Host: m.mobilelegends.com
+        Host: www.pubgmobile.com
     udp: true
 
   - name: 🇰🇭KH-FREE1
@@ -94,7 +94,7 @@ proxies:
     ws-opts:
       path: /vpnjantit
       headers:
-        Host: m.mobilelegends.com
+        Host: m.freefiremobile.com
         
 proxy-groups:
   - name: 🔰 Server List
