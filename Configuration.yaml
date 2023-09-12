@@ -30,7 +30,7 @@ dns:
     
 proxies:
 
-  - name: V2-MLBB1
+  - name: KH-MLBB1
     server: kh2.vpnjantit.com
     port: 10000
     type: vmess
@@ -47,7 +47,7 @@ proxies:
         Host: m.mobilelegends.com
     udp: true
 
-  - name: V2-MLBB2
+  - name: SG-MLBB2
     server: sgv-5.openv2ray.com
     port: 443
     type: vmess
@@ -106,8 +106,8 @@ proxy-groups:
   - name: 🎮MLBB PROMO
     type: select
     proxies:
-      - V2-MLBB1
-      - V2-MLBB2
+      - KH-MLBB1
+      - SG-MLBB2
   - name: 🎮PUBG MOBILE 
     type: select
     proxies:
