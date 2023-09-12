@@ -120,7 +120,8 @@ proxy-groups:
     type: select
     proxies:
       - PROXY AUTO♻️
-      - V2-MLBB1
+      - KH-MLBB1
+      - SG-MLBB2
       - KH-PUBG1
       - KH-FREE1
     url: 'http://www.gstatic.com/generate_204'
@@ -128,7 +129,8 @@ proxy-groups:
   - name: Auto-Fallback 🌀
     type: fallback
     proxies:
-      - V2-MLBB1
+      - KH-MLBB1
+      - SG-MLBB2
       - KH-PUBG1
       - KH-FREE1
     url: 'http://www.gstatic.com/generate_204'
@@ -136,7 +138,8 @@ proxy-groups:
   - name: PROXY AUTO♻️
     type: url-test
     proxies:
-      - V2-MLBB1
+      - KH-MLBB1
+      - SG-MLBB2
       - KH-PUBG1
       - KH-FREE1
     url: 'http://www.gstatic.com/generate_204'
@@ -144,7 +147,8 @@ proxy-groups:
   - name: ♻️AUTO
     type: url-test
     proxies:
-      - V2-MLBB1
+      - KH-MLBB1
+      - SG-MLBB2
       - KH-PUBG1
       - KH-FREE1
     url: 'http://www.gstatic.com/generate_204'
