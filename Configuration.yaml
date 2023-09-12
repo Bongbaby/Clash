@@ -30,7 +30,7 @@ dns:
     
 proxies:
 
-  - name: KH-MLBB1
+  - name: 🇰🇭KH-MLBB1
     server: kh2.vpnjantit.com
     port: 10000
     type: vmess
@@ -47,7 +47,7 @@ proxies:
         Host: m.mobilelegends.com
     udp: true
 
-  - name: SG-MLBB2
+  - name: 🇸🇬SG-MLBB2
     server: sgv-5.openv2ray.com
     port: 443
     type: vmess
@@ -63,7 +63,7 @@ proxies:
       headers:
         Host: m.mobilelegends.com
         
-  - name: KH-PUBG1
+  - name: 🇰🇭KH-PUBG1
     server: kh2.vpnjantit.com
     port: 10000
     type: vmess
@@ -80,7 +80,7 @@ proxies:
         Host: m.mobilelegends.com
     udp: true
 
-  - name: KH-FREE1
+  - name: 🇰🇭KH-FREE1
     server: kh2.vpnjantit.com
     port: 10000
     type: vmess
@@ -106,51 +106,51 @@ proxy-groups:
   - name: 🎮MLBB PROMO
     type: select
     proxies:
-      - KH-MLBB1
-      - SG-MLBB2
+      - 🇰🇭KH-MLBB1
+      - 🇸🇬SG-MLBB2
   - name: 🎮PUBG MOBILE 
     type: select
     proxies:
-      - KH-PUBG1
+      - 🇰🇭KH-PUBG1
   - name: 🎮FREE FIRE
     type: select
     proxies:
-      - KH-FREE1
+      - 🇰🇭KH-FREE1
   - name: PROXY 🚀
     type: select
     proxies:
       - PROXY AUTO♻️
-      - KH-MLBB1
-      - SG-MLBB2
-      - KH-PUBG1
-      - KH-FREE1
+      - 🇰🇭KH-MLBB1
+      - 🇸🇬SG-MLBB2
+      - 🇰🇭KH-PUBG1
+      - 🇰🇭KH-FREE1
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
   - name: Auto-Fallback 🌀
     type: fallback
     proxies:
-      - KH-MLBB1
-      - SG-MLBB2
-      - KH-PUBG1
-      - KH-FREE1
+      - 🇰🇭KH-MLBB1
+      - 🇸🇬SG-MLBB2
+      - 🇰🇭KH-PUBG1
+      - 🇰🇭KH-FREE1
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
   - name: PROXY AUTO♻️
     type: url-test
     proxies:
-      - KH-MLBB1
-      - SG-MLBB2
-      - KH-PUBG1
-      - KH-FREE1
+      - 🇰🇭KH-MLBB1
+      - 🇸🇬SG-MLBB2
+      - 🇰🇭KH-PUBG1
+      - 🇰🇭KH-FREE1
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
   - name: ♻️AUTO
     type: url-test
     proxies:
-      - KH-MLBB1
-      - SG-MLBB2
-      - KH-PUBG1
-      - KH-FREE1
+      - 🇰🇭KH-MLBB1
+      - 🇸🇬SG-MLBB2
+      - 🇰🇭KH-PUBG1
+      - 🇰🇭KH-FREE1
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
 
