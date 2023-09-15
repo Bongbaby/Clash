@@ -62,7 +62,6 @@ proxies:
       path: /vpnjantit
       headers:
         Host: m.mobilelegends.com
-    udp: true
 
   - name: 🇭🇰HK-MLBB3
     server: hk3.vpnjantit.com
@@ -79,7 +78,6 @@ proxies:
       path: /vpnjantit
       headers:
         Host: m.mobilelegends.com
-    udp: true
 
   - name: 🇺🇲USA-MLBB4
     server: usa5.vpnjantit.com
@@ -96,7 +94,6 @@ proxies:
       path: /vpnjantit
       headers:
         Host: m.mobilelegends.com
-    udp: true
         
   - name: 🇰🇭KH-PUBG1
     server: kh2.vpnjantit.com
