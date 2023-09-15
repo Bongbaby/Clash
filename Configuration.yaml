@@ -97,9 +97,6 @@ proxies:
       headers:
         Host: m.mobilelegends.com
     udp: true
-       - h2
-       - http/1.1
-    skip-cert-verify: true
         
   - name: 🇰🇭KH-PUBG1
     server: kh2.vpnjantit.com
