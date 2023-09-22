@@ -34,7 +34,7 @@ proxies:
     server: kh1.vpnjantit.com
     port: 10000
     type: vmess
-    uuid: f643d95e-5381-11ee-8c7e-bbf73a884c3d
+    uuid: 0e429c72-5970-11ee-b24c-5b87bb38d425
     alterId: 0
     cipher: auto
     tls: false
@@ -46,60 +46,12 @@ proxies:
       headers:
         Host: m.mobilelegends.com
     udp: true
-
-  - name: 🇹🇭TH-MLBB2
-    server: th1.vpnjantit.com
-    port: 10000
-    type: vmess
-    uuid: 168d13ba-5387-11ee-b571-031f51ed0856
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: m.mobilelegends.com
-    network: ws
-    ws-opts:
-      path: /vpnjantit
-      headers:
-        Host: m.mobilelegends.com
-
-  - name: 🇭🇰HK-MLBB3
-    server: hk3.vpnjantit.com
-    port: 10000
-    type: vmess
-    uuid: 56e50608-5386-11ee-9cdd-0fc09fdc579c
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: m.mobilelegends.com
-    network: ws
-    ws-opts:
-      path: /vpnjantit
-      headers:
-        Host: m.mobilelegends.com
-
-  - name: 🇺🇲USA-MLBB4
-    server: usa5.vpnjantit.com
-    port: 80
-    type: vmess
-    uuid: f658d158-5389-11ee-a43c-1a7065ee272b
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: m.mobilelegends.com
-    network: ws
-    ws-opts:
-      path: /vpnjantit
-      headers:
-        Host: m.mobilelegends.com
-        
+  
   - name: 🇰🇭KH-PUBG1
-    server: kh2.vpnjantit.com
+    server: kh1.vpnjantit.com
     port: 10000
     type: vmess
-    uuid: f643d95e-5381-11ee-8c7e-bbf73a884c3d
+    uuid: 0e429c72-5970-11ee-b24c-5b87bb38d425
     alterId: 0
     cipher: auto
     tls: false
@@ -113,10 +65,10 @@ proxies:
     udp: true
 
   - name: 🇰🇭KH-FREE1
-    server: kh2.vpnjantit.com
+    server: kh1.vpnjantit.com
     port: 10000
     type: vmess
-    uuid: f643d95e-5381-11ee-8c7e-bbf73a884c3d
+    uuid: 0e429c72-5970-11ee-b24c-5b87bb38d425
     alterId: 0
     cipher: auto
     tls: false
@@ -139,9 +91,6 @@ proxy-groups:
     type: select
     proxies:
       - 🇰🇭KH-MLBB1
-      - 🇹🇭TH-MLBB2
-      - 🇭🇰HK-MLBB3
-      - 🇺🇲USA-MLBB4
   - name: 🎮PUBG MOBILE 
     type: select
     proxies:
@@ -155,9 +104,6 @@ proxy-groups:
     proxies:
       - PROXY AUTO♻️
       - 🇰🇭KH-MLBB1
-      - 🇹🇭TH-MLBB2
-      - 🇭🇰HK-MLBB3
-      - 🇺🇲USA-MLBB4
       - 🇰🇭KH-PUBG1
       - 🇰🇭KH-FREE1
     url: 'http://www.gstatic.com/generate_204'
@@ -166,9 +112,6 @@ proxy-groups:
     type: fallback
     proxies:
       - 🇰🇭KH-MLBB1
-      - 🇹🇭TH-MLBB2
-      - 🇭🇰HK-MLBB3
-      - 🇺🇲USA-MLBB4
       - 🇰🇭KH-PUBG1
       - 🇰🇭KH-FREE1
     url: 'http://www.gstatic.com/generate_204'
@@ -177,9 +120,6 @@ proxy-groups:
     type: url-test
     proxies:
       - 🇰🇭KH-MLBB1
-      - 🇹🇭TH-MLBB2
-      - 🇭🇰HK-MLBB3
-      - 🇺🇲USA-MLBB4
       - 🇰🇭KH-PUBG1
       - 🇰🇭KH-FREE1
     url: 'http://www.gstatic.com/generate_204'
@@ -188,9 +128,6 @@ proxy-groups:
     type: url-test
     proxies:
       - 🇰🇭KH-MLBB1
-      - 🇹🇭TH-MLBB2
-      - 🇭🇰HK-MLBB3
-      - 🇺🇲USA-MLBB4
       - 🇰🇭KH-PUBG1
       - 🇰🇭KH-FREE1
     url: 'http://www.gstatic.com/generate_204'
