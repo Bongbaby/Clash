@@ -79,6 +79,38 @@ proxies:
       path: /vpnjantit
       headers:
         Host: m.freefiremobile.com
+
+  - name: 🇰🇭KH-TIK TOK1
+    server: kh1.vpnjantit.com
+    port: 10000
+    type: vmess
+    uuid: 0e429c72-5970-11ee-b24c-5b87bb38d425
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: m.mobilelegends.com
+    network: ws
+    ws-opts:
+      path: /vpnjantit
+      headers:
+        Host: www.tiktok.com
+
+  - name: 🇰🇭KH-SOCIAL PACK1
+    server: kh1.vpnjantit.com
+    port: 10000
+    type: vmess
+    uuid: 0e429c72-5970-11ee-b24c-5b87bb38d425
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: m.mobilelegends.com
+    network: ws
+    ws-opts:
+      path: /vpnjantit
+      headers:
+        Host: m.line.me
         
 proxy-groups:
   - name: 🔰 Server List
@@ -87,6 +119,8 @@ proxy-groups:
       - 🎮MLBB PROMO
       - 🎮PUBG MOBILE
       - 🎮FREE FIRE
+      - 🔰TIK TOK
+      - 🔰SOCIAL PACK
   - name: 🎮MLBB PROMO
     type: select
     proxies:
@@ -99,6 +133,14 @@ proxy-groups:
     type: select
     proxies:
       - 🇰🇭KH-FREE1
+  - name: 🔰TIK TOK
+    type: select
+    proxies:
+      - 🇰🇭KH-TIK TOK1
+  - name: 🔰SOCIAL PACK
+    type: select
+    proxies:
+      - 🇰🇭KH-SOCIAL PACK1
   - name: PROXY 🚀
     type: select
     proxies:
@@ -106,6 +148,8 @@ proxy-groups:
       - 🇰🇭KH-MLBB1
       - 🇰🇭KH-PUBG1
       - 🇰🇭KH-FREE1
+      - 🇰🇭KH-TIK TOK1
+      - 🇰🇭KH-SOCIAL PACK1
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
   - name: Auto-Fallback 🌀
@@ -114,6 +158,8 @@ proxy-groups:
       - 🇰🇭KH-MLBB1
       - 🇰🇭KH-PUBG1
       - 🇰🇭KH-FREE1
+      - 🇰🇭KH-TIK TOK1
+      - 🇰🇭KH-SOCIAL PACK1
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
   - name: PROXY AUTO♻️
@@ -122,6 +168,8 @@ proxy-groups:
       - 🇰🇭KH-MLBB1
       - 🇰🇭KH-PUBG1
       - 🇰🇭KH-FREE1
+      - 🇰🇭KH-TIK TOK1
+      - 🇰🇭KH-SOCIAL PACK1
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
   - name: ♻️AUTO
@@ -130,6 +178,8 @@ proxy-groups:
       - 🇰🇭KH-MLBB1
       - 🇰🇭KH-PUBG1
       - 🇰🇭KH-FREE1
+      - 🇰🇭KH-TIK TOK1
+      - 🇰🇭KH-SOCIAL PACK1
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
 
