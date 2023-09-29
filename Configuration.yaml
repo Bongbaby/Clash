@@ -46,6 +46,40 @@ proxies:
       headers:
         Host: m.mobilelegends.com
     udp: true
+
+  - name: 🇰🇭KH-MLBB2
+    server: kh2.vpnjantit.com
+    port: 10000
+    type: vmess
+    uuid: f64f30a4-5ef0-11ee-8977-6f9dcc91c0e4
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: m.mobilelegends.com
+    network: ws
+    ws-opts:
+      path: /vpnjantit
+      headers:
+        Host: m.mobilelegends.com
+    udp: true
+
+  - name: 🇹🇭TH-MLBB3
+    server: th1.vpnjantit.com
+    port: 10000
+    type: vmess
+    uuid: 8a933b48-5ef1-11ee-b57c-cf05cfa73f95
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: m.mobilelegends.com
+    network: ws
+    ws-opts:
+      path: /vpnjantit
+      headers:
+        Host: m.mobilelegends.com
+    udp: true
   
   - name: 🇰🇭KH-PUBG1
     server: kh2.vpnjantit.com
@@ -125,6 +159,8 @@ proxy-groups:
     type: select
     proxies:
       - 🇰🇭KH-MLBB1
+      - 🇰🇭KH-MLBB2
+      - 🇹🇭TH-MLBB3
   - name: 🎮PUBG MOBILE 
     type: select
     proxies:
