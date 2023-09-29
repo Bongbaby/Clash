@@ -31,10 +31,10 @@ dns:
 proxies:
 
   - name: 🇰🇭KH-MLBB1
-    server: kh1.vpnjantit.com
+    server: kh2.vpnjantit.com
     port: 10000
     type: vmess
-    uuid: 0e429c72-5970-11ee-b24c-5b87bb38d425
+    uuid: 05338e0a-5eef-11ee-9fa7-cf44ac6f9d8d
     alterId: 0
     cipher: auto
     tls: false
@@ -48,10 +48,10 @@ proxies:
     udp: true
   
   - name: 🇰🇭KH-PUBG1
-    server: kh1.vpnjantit.com
+    server: kh2.vpnjantit.com
     port: 10000
     type: vmess
-    uuid: 0e429c72-5970-11ee-b24c-5b87bb38d425
+    uuid: 05338e0a-5eef-11ee-9fa7-cf44ac6f9d8d
     alterId: 0
     cipher: auto
     tls: false
@@ -65,10 +65,10 @@ proxies:
     udp: true
 
   - name: 🇰🇭KH-FREE1
-    server: kh1.vpnjantit.com
+    server: kh2.vpnjantit.com
     port: 10000
     type: vmess
-    uuid: 0e429c72-5970-11ee-b24c-5b87bb38d425
+    uuid: 05338e0a-5eef-11ee-9fa7-cf44ac6f9d8d
     alterId: 0
     cipher: auto
     tls: false
@@ -81,10 +81,10 @@ proxies:
         Host: m.freefiremobile.com
 
   - name: 🇰🇭KH-TIK TOK1
-    server: kh1.vpnjantit.com
+    server: kh2.vpnjantit.com
     port: 10000
     type: vmess
-    uuid: 0e429c72-5970-11ee-b24c-5b87bb38d425
+    uuid: 05338e0a-5eef-11ee-9fa7-cf44ac6f9d8d
     alterId: 0
     cipher: auto
     tls: false
@@ -97,10 +97,10 @@ proxies:
         Host: www.tiktok.com
 
   - name: 🇰🇭KH-SOCIAL PACK1
-    server: kh1.vpnjantit.com
+    server: kh2.vpnjantit.com
     port: 10000
     type: vmess
-    uuid: 0e429c72-5970-11ee-b24c-5b87bb38d425
+    uuid: 05338e0a-5eef-11ee-9fa7-cf44ac6f9d8d
     alterId: 0
     cipher: auto
     tls: false
