@@ -105,6 +105,17 @@ proxies:
     sni: m.mobilelegends.com
     alpn:
 
+  - name: 🇸🇬SG-MLBB6
+    type: ss
+    server: sg04.proxysocks.xyz
+    port: 8139
+    cipher: chacha20-ietf-poly1305
+    password: Yzc2N
+    plugin: obfs
+    plugin-opts:
+       mode: http
+       host: m.mobilelegends.com
+
   - name: 🇰🇭KH-PUBG1
     server: kh2.vpnjantit.com
     port: 10000
@@ -187,6 +198,7 @@ proxy-groups:
       - 🇹🇭TH-MLBB3
       - 🇸🇬SG-MLBB4
       - 🇸🇬SG-MLBB5
+      - 🇸🇬SG-MLBB6
   - name: 🎮PUBG MOBILE 
     type: select
     proxies:
