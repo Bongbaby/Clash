@@ -80,7 +80,31 @@ proxies:
       headers:
         Host: m.mobilelegends.com
     udp: true
-  
+
+  - name: 🇸🇬SG-MLBB4
+    type: trojan
+    server: sgt-1.opensvr.net
+    port: 443
+    password: opentunnel.net-gsryip
+    ws: false
+    udp: true
+    skip-cert-verify: true
+    ws-path: /
+    sni: m.mobilelegends.com
+    alpn:
+
+  - name: 🇸🇬SG-MLBB5
+    type: trojan
+    server: sg6-trojan.bonds.id
+    port: 443
+    password: 1f6d2340-5f39-11ee-9f33-1239d0255272
+    ws: false
+    udp: true
+    skip-cert-verify: true
+    ws-path: /howdy
+    sni: m.mobilelegends.com
+    alpn:
+
   - name: 🇰🇭KH-PUBG1
     server: kh2.vpnjantit.com
     port: 10000
@@ -161,6 +185,8 @@ proxy-groups:
       - 🇰🇭KH-MLBB1
       - 🇰🇭KH-MLBB2
       - 🇹🇭TH-MLBB3
+      - 🇸🇬SG-MLBB4
+      - 🇸🇬SG-MLBB5
   - name: 🎮PUBG MOBILE 
     type: select
     proxies:
