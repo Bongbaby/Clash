@@ -31,10 +31,10 @@ dns:
 proxies:
 
   - name: 🇰🇭KH1-MLBB
-    server: 103.114.203.80
+    server: 220.158.233.184
     port: 10000
     type: vmess
-    uuid: 8a933b48-5ef1-11ee-b57c-cf05cfa73f95
+    uuid: c1010f62-63aa-11ee-97df-0b4e0eaa3e5a
     alterId: 0
     cipher: auto
     tls: false
@@ -48,10 +48,10 @@ proxies:
     udp: true
 
   - name: 🇰🇭KH1-MLBB
-    server: 103.114.203.80
+    server: 220.158.233.184
     port: 10000
     type: vmess
-    uuid: 8a933b48-5ef1-11ee-b57c-cf05cfa73f95
+    uuid: af26fe7e-63a9-11ee-b422-db0f4e150be4
     alterId: 0
     cipher: auto
     tls: false
