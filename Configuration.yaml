@@ -30,7 +30,7 @@ dns:
     
 proxies:
 
-  - name: 🇰🇭KH1-MLBB
+  - name: 🇰🇭KHC1-MLBB
     server: 220.158.233.184
     port: 10000
     type: vmess
@@ -47,7 +47,7 @@ proxies:
         Host: m.mobilelegends.com
     udp: true
 
-  - name: 🇰🇭KH1-MLBB
+  - name: 🇰🇭KHC1-MLBB
     server: 220.158.233.184
     port: 10000
     type: vmess
@@ -210,8 +210,8 @@ proxy-groups:
   - name: 🎮MLBB PROMO
     type: select
     proxies:
-      - 🇰🇭KH1-MLBB
-      - 🇰🇭KH1-MLBB
+      - 🇰🇭KHC1-MLBB
+      - 🇰🇭KHC1-MLBB
       - 🇰🇭KH2-MLBB
       - 🇰🇭KH2-MLBB
       - 🇸🇬SG3-MLBB
@@ -238,9 +238,6 @@ proxy-groups:
     proxies:
       - PROXY AUTO♻️
       - 🇰🇭KH1-MLBB
-      - 🇰🇭KH1-MLBB
-      - 🇰🇭KH2-MLBB
-      - 🇰🇭KH2-MLBB
       - 🇰🇭KH1-PUBG
       - 🇰🇭KH1-FREE
       - 🇰🇭KH1-TIK TOK
@@ -251,9 +248,6 @@ proxy-groups:
     type: fallback
     proxies:
       - 🇰🇭KH1-MLBB
-      - 🇰🇭KH1-MLBB
-      - 🇰🇭KH2-MLBB
-      - 🇰🇭KH2-MLBB
       - 🇰🇭KH1-PUBG
       - 🇰🇭KH1-FREE
       - 🇰🇭KH1-TIK TOK
@@ -264,9 +258,6 @@ proxy-groups:
     type: url-test
     proxies:
       - 🇰🇭KH1-MLBB
-      - 🇰🇭KH1-MLBB
-      - 🇰🇭KH2-MLBB
-      - 🇰🇭KH2-MLBB
       - 🇰🇭KH1-PUBG
       - 🇰🇭KH1-FREE
       - 🇰🇭KH1-TIK TOK
@@ -277,9 +268,6 @@ proxy-groups:
     type: url-test
     proxies:
       - 🇰🇭KH1-MLBB
-      - 🇰🇭KH1-MLBB
-      - 🇰🇭KH2-MLBB
-      - 🇰🇭KH2-MLBB
       - 🇰🇭KH1-PUBG
       - 🇰🇭KH1-FREE
       - 🇰🇭KH1-TIK TOK
