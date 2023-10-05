@@ -211,8 +211,6 @@ proxy-groups:
     type: select
     proxies:
       - 🇰🇭KH1-MLBB
-      - 🇰🇭KH1-MLBB
-      - 🇰🇭KH2-MLBB
       - 🇰🇭KH2-MLBB
       - 🇸🇬SG3-MLBB
       - 🇸🇬SG4-MLBB
