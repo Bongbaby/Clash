@@ -65,7 +65,7 @@ proxies:
     udp: true
 
   - name: 🇹🇭TH-MLBB3
-    server: th1.vpnjantit.com
+    server: 103.114.203.80
     port: 10000
     type: vmess
     uuid: 8a933b48-5ef1-11ee-b57c-cf05cfa73f95
@@ -83,7 +83,7 @@ proxies:
 
   - name: 🇸🇬SG-MLBB4
     type: trojan
-    server: sgt-1.opensvr.net
+    server: 149.28.131.42
     port: 443
     password: opentunnel.net-gsryip
     ws: false
@@ -95,7 +95,7 @@ proxies:
 
   - name: 🇸🇬SG-MLBB5
     type: trojan
-    server: sg6-trojan.bonds.id
+    server: 103.253.24.77
     port: 443
     password: 1f6d2340-5f39-11ee-9f33-1239d0255272
     ws: false
@@ -107,7 +107,7 @@ proxies:
 
   - name: 🇸🇬SG-MLBB6
     type: ss
-    server: sg04.proxysocks.xyz
+    server: 51.79.207.10
     port: 8139
     cipher: chacha20-ietf-poly1305
     password: Yzc2N
