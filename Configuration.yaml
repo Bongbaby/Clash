@@ -211,6 +211,8 @@ proxy-groups:
     type: select
     proxies:
       - 🇰🇭KH1-MLBB
+      - 🇰🇭KH1-MLBB
+      - 🇰🇭KH2-MLBB
       - 🇰🇭KH2-MLBB
       - 🇸🇬SG3-MLBB
       - 🇸🇬SG4-MLBB
@@ -236,7 +238,6 @@ proxy-groups:
     proxies:
       - PROXY AUTO♻️
       - 🇰🇭KH1-MLBB
-      - 🇰🇭KH2-MLBB
       - 🇰🇭KH1-PUBG
       - 🇰🇭KH1-FREE
       - 🇰🇭KH1-TIK TOK
@@ -247,7 +248,6 @@ proxy-groups:
     type: fallback
     proxies:
       - 🇰🇭KH1-MLBB
-      - 🇰🇭KH2-MLBB
       - 🇰🇭KH1-PUBG
       - 🇰🇭KH1-FREE
       - 🇰🇭KH1-TIK TOK
@@ -258,7 +258,6 @@ proxy-groups:
     type: url-test
     proxies:
       - 🇰🇭KH1-MLBB
-      - 🇰🇭KH2-MLBB
       - 🇰🇭KH1-PUBG
       - 🇰🇭KH1-FREE
       - 🇰🇭KH1-TIK TOK
@@ -269,7 +268,6 @@ proxy-groups:
     type: url-test
     proxies:
       - 🇰🇭KH1-MLBB
-      - 🇰🇭KH2-MLBB
       - 🇰🇭KH1-PUBG
       - 🇰🇭KH1-FREE
       - 🇰🇭KH1-TIK TOK
