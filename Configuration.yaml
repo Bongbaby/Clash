@@ -112,9 +112,9 @@ proxies:
 
   - name: 🇸🇬SG4-MLBB
     type: trojan
-    server: 103.253.24.77
+    server: 103.253.24.212
     port: 443
-    password: 1f6d2340-5f39-11ee-9f33-1239d0255272
+    password: ecd36d60-784c-11ee-b9ab-1239d0255272
     ws: false
     udp: true
     skip-cert-verify: true
