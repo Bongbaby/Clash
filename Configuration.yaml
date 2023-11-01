@@ -31,10 +31,10 @@ dns:
 proxies:
 
   - name: 🇰🇭KH1-MLBB
-    server: 220.158.233.184
+    server: 220.158.233.91
     port: 10000
     type: vmess
-    uuid: a9b42150-748a-11ee-936a-5b9874efb5a4
+    uuid: 88851f2e-784b-11ee-8351-5fecc8d6665c
     alterId: 0
     cipher: auto
     tls: false
@@ -48,7 +48,7 @@ proxies:
     udp: true
 
   - name: 🇰🇭KH2-MLBB
-    server: 220.158.233.184
+    server: 220.158.233.91
     port: 10000
     type: vmess
     uuid: a9b42150-748a-11ee-936a-5b9874efb5a4
@@ -65,7 +65,7 @@ proxies:
     udp: true
   
   - name: 🇰🇭KH3-MLBB
-    server: 220.158.233.184
+    server: 220.158.233.91
     port: 10000
     type: vmess
     uuid: 74a4178e-7491-11ee-a9f8-b33852d8ac1e
@@ -82,7 +82,7 @@ proxies:
     udp: true
 
   - name: 🇰🇭KH4-MLBB
-    server: 220.158.233.184
+    server: 220.158.233.91
     port: 10000
     type: vmess
     uuid: 74a4178e-7491-11ee-a9f8-b33852d8ac1e
@@ -134,7 +134,7 @@ proxies:
        host: m.mobilelegends.com
 
   - name: 🇰🇭KH1-PUBG
-    server: 220.158.233.184
+    server: 220.158.233.91
     port: 10000
     type: vmess
     uuid: 74a4178e-7491-11ee-a9f8-b33852d8ac1e
@@ -151,7 +151,7 @@ proxies:
     udp: true
 
   - name: 🇰🇭KH1-FREE
-    server: 220.158.233.184
+    server: 220.158.233.91
     port: 10000
     type: vmess
     uuid: 74a4178e-7491-11ee-a9f8-b33852d8ac1e
@@ -167,7 +167,7 @@ proxies:
         Host: m.freefiremobile.com
 
   - name: 🇰🇭KH1-TIK TOK
-    server: 220.158.233.184
+    server: 220.158.233.91
     port: 10000
     type: vmess
     uuid: 74a4178e-7491-11ee-a9f8-b33852d8ac1e
@@ -183,7 +183,7 @@ proxies:
         Host: www.tiktok.com
 
   - name: 🇰🇭KH1-SOCIAL PACK
-    server: 220.158.233.184
+    server: 220.158.233.91
     port: 10000
     type: vmess
     uuid: 74a4178e-7491-11ee-a9f8-b33852d8ac1e
