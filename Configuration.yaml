@@ -102,7 +102,7 @@ proxies:
     type: trojan
     server: 149.28.131.42
     port: 443
-    password: opentunnel.net-gsryip
+    password: opentunnel.net-mwtgrj
     ws: false
     udp: true
     skip-cert-verify: true
