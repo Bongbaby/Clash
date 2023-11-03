@@ -113,7 +113,7 @@ proxies:
       path: /sshkit/1229251110/65444c9c47aa4/
       headers:
         Host: m.mobilelegends.com
-    udp: true
+    udp: false
 
   - name: 🇸🇬TJ-MLBB1
     type: trojan
