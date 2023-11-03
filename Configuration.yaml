@@ -105,6 +105,7 @@ proxies:
     uuid: e620d600-ee19-4012-a96c-968e85a52de9
     alterId: 0
     cipher: auto
+    ws: true
     tls: true
     skip-cert-verify: true
     servername: m.mobilelegends.com
