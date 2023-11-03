@@ -107,7 +107,6 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: m.mobilelegends.com
     network: ws
     ws-opts:
       path: /sshkit/1229251110/65444c9c47aa4/
