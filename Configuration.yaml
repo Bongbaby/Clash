@@ -140,10 +140,10 @@ proxies:
 
   - name: 🇸🇬SS-MLBB1
     type: ss
-    server: 51.79.207.10
+    server: sg-ss.sshmax.xyz
     port: 8139
     cipher: chacha20-ietf-poly1305
-    password: Yzc2N
+    password: ZGE5MjEz
     plugin: obfs
     plugin-opts:
        mode: http
