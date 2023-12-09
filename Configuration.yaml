@@ -8,8 +8,8 @@ mode: rule
 log-level: silent
 allow-lan: true
 external-controller: 0.0.0.0:9090
-secret: ""
-bind-address: "*"
+secret: "BoyZin"
+bind-address: "https://bit.ly/m/Netsabay-Cambodia"
 unified-delay: true
 profile:
   store-selected: true
@@ -34,7 +34,7 @@ proxies:
     server: 220.158.233.184
     port: 10000
     type: vmess
-    uuid: 2de92cba-913f-11ee-87a3-431b5920c023
+    uuid: 99bf4886-96ba-11ee-8b54-ff35386d0aeb
     alterId: 0
     cipher: auto
     tls: false
@@ -51,7 +51,7 @@ proxies:
     server: 220.158.233.184
     port: 10000
     type: vmess
-    uuid: 0908c054-913f-11ee-a1f1-4bd09daad4e8
+    uuid: 7ce01a56-96ba-11ee-8fe3-1bdf509e1e74
     alterId: 0
     cipher: auto
     tls: false
@@ -68,7 +68,7 @@ proxies:
     server: 220.158.233.184
     port: 10000
     type: vmess
-    uuid: f8e7aab4-913e-11ee-ad95-8334001be2ae
+    uuid: 599a3752-96ba-11ee-af5b-0b74003b3807
     alterId: 0
     cipher: auto
     tls: false
@@ -85,7 +85,7 @@ proxies:
     server: 220.158.233.184
     port: 10000
     type: vmess
-    uuid: e0262df2-913e-11ee-bc3f-f74cfa014610
+    uuid: 938abcbc-96b9-11ee-8e95-1f659ca6d06d
     alterId: 0
     cipher: auto
     tls: false
@@ -170,7 +170,7 @@ proxies:
     server: 220.158.233.184
     port: 10000
     type: vmess
-    uuid: beaf04fa-913e-11ee-bb0a-5f4a5f6b3df3
+    uuid: 99bf4886-96ba-11ee-8b54-ff35386d0aeb
     alterId: 0
     cipher: auto
     tls: false
@@ -187,7 +187,7 @@ proxies:
     server: 220.158.233.184
     port: 10000
     type: vmess
-    uuid: 4426d130-913f-11ee-ab12-ebabbbe9fa38
+    uuid: 99bf4886-96ba-11ee-8b54-ff35386d0aeb
     alterId: 0
     cipher: auto
     tls: false
@@ -203,7 +203,7 @@ proxies:
     server: 220.158.233.184
     port: 10000
     type: vmess
-    uuid: 4426d130-913f-11ee-ab12-ebabbbe9fa38
+    uuid: 99bf4886-96ba-11ee-8b54-ff35386d0aeb
     alterId: 0
     cipher: auto
     tls: false
@@ -219,7 +219,7 @@ proxies:
     server: 220.158.233.184
     port: 10000
     type: vmess
-    uuid: 4426d130-913f-11ee-ab12-ebabbbe9fa38
+    uuid: 99bf4886-96ba-11ee-8b54-ff35386d0aeb
     alterId: 0
     cipher: auto
     tls: false
