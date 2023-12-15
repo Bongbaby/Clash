@@ -147,7 +147,7 @@ proxies:
     type: trojan
     server: 103.253.24.212
     port: 443
-    password: 576c7300-8d49-11ee-9e13-1239d0255272
+    password: 50cb5280-9b04-11ee-88fd-1239d0255272
     ws: false
     udp: true
     skip-cert-verify: true
