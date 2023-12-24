@@ -34,7 +34,7 @@ proxies:
     server: 220.158.233.184
     port: 10000
     type: vmess
-    uuid: 252b7394-9f90-11ee-bc82-1f07e76b76e3
+    uuid: 01c71300-a269-11ee-8f16-a33d439dcce2
     alterId: 0
     cipher: auto
     tls: false
@@ -51,7 +51,7 @@ proxies:
     server: 220.158.233.184
     port: 10000
     type: vmess
-    uuid: 8a4ad374-9f8f-11ee-b0bc-33ec686e85ec
+    uuid: a194239c-a268-11ee-818d-9b9c7cae1b8c
     alterId: 0
     cipher: auto
     tls: false
@@ -68,7 +68,7 @@ proxies:
     server: 220.158.233.184
     port: 10000
     type: vmess
-    uuid: 18e30c72-9f50-11ee-b1ca-13e42bd64dcb
+    uuid: 86cb189a-a268-11ee-9fa8-e3b5cfde3319
     alterId: 0
     cipher: auto
     tls: false
@@ -85,7 +85,7 @@ proxies:
     server: 220.158.233.184
     port: 10000
     type: vmess
-    uuid: fbc55fe6-9f4f-11ee-a367-8f057ab53df4
+    uuid: 6ea104be-a268-11ee-96fc-cf844362dbec
     alterId: 0
     cipher: auto
     tls: false
@@ -118,7 +118,7 @@ proxies:
     server: 45.12.80.144
     port: 10000
     type: vmess
-    uuid: a9186f5c-8af7-11ee-bfa3-00163e0c1be4
+    uuid: 64d60e60-a269-11ee-b9f5-00163e0c1be4
     alterId: 0
     cipher: auto
     tls: false
@@ -170,7 +170,7 @@ proxies:
     server: 220.158.233.184
     port: 10000
     type: vmess
-    uuid: fbc55fe6-9f4f-11ee-a367-8f057ab53df4
+    uuid: 5004ac72-a268-11ee-8cf6-cb97b6daa7d4
     alterId: 0
     cipher: auto
     tls: false
@@ -187,7 +187,7 @@ proxies:
     server: 220.158.233.184
     port: 10000
     type: vmess
-    uuid: fbc55fe6-9f4f-11ee-a367-8f057ab53df4
+    uuid: 2cd3f51e-a268-11ee-bc0e-4398c11dcea6
     alterId: 0
     cipher: auto
     tls: false
@@ -203,7 +203,7 @@ proxies:
     server: 220.158.233.184
     port: 10000
     type: vmess
-    uuid: fbc55fe6-9f4f-11ee-a367-8f057ab53df4
+    uuid: 2cd3f51e-a268-11ee-bc0e-4398c11dcea6
     alterId: 0
     cipher: auto
     tls: false
@@ -219,7 +219,7 @@ proxies:
     server: 220.158.233.184
     port: 10000
     type: vmess
-    uuid: fbc55fe6-9f4f-11ee-a367-8f057ab53df4
+    uuid: 2cd3f51e-a268-11ee-bc0e-4398c11dcea6
     alterId: 0
     cipher: auto
     tls: false
@@ -230,6 +230,22 @@ proxies:
       path: /vpnjantit
       headers:
         Host: m.line.me
+
+  - name: 🇰🇭V2-TIK TOK1
+    server: 220.158.233.184
+    port: 10000
+    type: vmess
+    uuid: 2cd3f51e-a268-11ee-bc0e-4398c11dcea6
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: m.mobilelegends.com
+    network: ws
+    ws-opts:
+      path: /vpnjantit
+      headers:
+        Host: m.mobilelegends.com
         
 proxy-groups:
   - name: 🔰 Server List
@@ -239,6 +255,7 @@ proxy-groups:
       - 🎮PUBG MOBILE
       - 🎮FREE FIRE
       - 🔰TIK TOK
+      - 🔰SOCIAL PACK
       - 🔰SOCIAL PACK
   - name: 🎮MLBB PROMO
     type: select
