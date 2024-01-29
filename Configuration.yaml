@@ -131,6 +131,23 @@ proxies:
         Host: m.mobilelegends.com
     udp: true
 
+  - name: 🇺🇸V2-MLBB7
+    server: usa6.vpnjantit.com
+    port: 10000
+    type: vmess
+    uuid: 3ec5889a-bebb-11ee-8cfe-00163cce34e7
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: m.mobilelegends.com
+    network: ws
+    ws-opts:
+      path: /vpnjantit
+      headers:
+        Host: m.mobilelegends.com
+    udp: true
+
   - name: 🇸🇬TJ-MLBB1
     type: trojan
     server: 149.28.131.42
@@ -266,6 +283,7 @@ proxy-groups:
       - 🇰🇭V2-MLBB4
       - 🇸🇬V2-MLBB5
       - 🇸🇬V2-MLBB6
+      - 🇺🇸V2-MLBB7
       - 🇸🇬TJ-MLBB1
       - 🇸🇬TJ-MLBB2
       - 🇸🇬SS-MLBB1
