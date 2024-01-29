@@ -132,10 +132,10 @@ proxies:
     udp: true
 
   - name: 🇺🇸V2-MLBB7
-    server: usa3.vpnjantit.com
+    server: usa7.vpnjantit.com
     port: 10000
     type: vmess
-    uuid: 7e30d924-bebd-11ee-b7c4-52ac0064f50a
+    uuid: 956c8164-bebe-11ee-bae2-97eabe0d1990
     alterId: 0
     cipher: auto
     tls: false
