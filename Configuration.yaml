@@ -249,20 +249,20 @@ proxies:
         Host: m.line.me
 
   - name: 🇰🇭V2-MLBB × Tik Tok1
-    server: 220.158.233.184
-    port: 10000
+    server: 104.23.125.189
+    port: 80
     type: vmess
-    uuid: 2cd3f51e-a268-11ee-bc0e-4398c11dcea6
+    uuid: a2f2d4fd-e48e-449e-9a59-67919d1b2457
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: m.mobilelegends.com
+    servername: sg1.createv2ray.com
     network: ws
     ws-opts:
       path: /vpnjantit
       headers:
-        Host: m.mobilelegends.com
+        Host: sg1.createv2ray.com
         
 proxy-groups:
   - name: 🔰 Server List
