@@ -260,7 +260,7 @@ proxies:
     servername: sg1.createv2ray.com
     network: ws
     ws-opts:
-      path: /vpnjantit
+      path: /vmess
       headers:
         Host: sg1.createv2ray.com
         
