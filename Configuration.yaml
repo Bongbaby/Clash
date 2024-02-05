@@ -248,7 +248,7 @@ proxies:
       headers:
         Host: m.line.me
 
-  - name: 🇰🇭V2-MLBB × Tik Tok1
+  - name: 🇸🇬V2-MLBB × Tik Tok1
     server: 104.23.125.189
     port: 80
     type: vmess
@@ -257,12 +257,12 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: sg1.createv2ray.com
+    servername: 172.104.189.15
     network: ws
     ws-opts:
       path: /vmess
       headers:
-        Host: sg1.createv2ray.com
+        Host: 172.104.189.15
         
 proxy-groups:
   - name: 🔰 Server List
@@ -306,7 +306,7 @@ proxy-groups:
   - name: 🔰MLBB × Tik Tok Metfone
     type: select
     proxies:
-      - 🇰🇭V2-MLBB × Tik Tok1
+      - 🇸🇬V2-MLBB × Tik Tok1
   - name: PROXY 🚀
     type: select
     proxies:
@@ -316,7 +316,7 @@ proxy-groups:
       - 🇰🇭V2-FREE1
       - 🇰🇭V2-TIK TOK1
       - 🇰🇭V2-SOCIAL PACK1
-      - 🇰🇭V2-MLBB × Tik Tok1
+      - 🇸🇬V2-MLBB × Tik Tok1
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
   - name: Auto-Fallback 🌀
@@ -327,7 +327,7 @@ proxy-groups:
       - 🇰🇭V2-FREE1
       - 🇰🇭V2-TIK TOK1
       - 🇰🇭V2-SOCIAL PACK1
-      - 🇰🇭V2-MLBB × Tik Tok1
+      - 🇸🇬V2-MLBB × Tik Tok1
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
   - name: PROXY AUTO♻️
@@ -338,7 +338,7 @@ proxy-groups:
       - 🇰🇭V2-FREE1
       - 🇰🇭V2-TIK TOK1
       - 🇰🇭V2-SOCIAL PACK1
-      - 🇰🇭V2-MLBB × Tik Tok1
+      - 🇸🇬V2-MLBB × Tik Tok1
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
   - name: ♻️AUTO
@@ -349,7 +349,7 @@ proxy-groups:
       - 🇰🇭V2-FREE1
       - 🇰🇭V2-TIK TOK1
       - 🇰🇭V2-SOCIAL PACK1
-      - 🇰🇭V2-MLBB × Tik Tok1
+      - 🇸🇬V2-MLBB × Tik Tok1
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
 
