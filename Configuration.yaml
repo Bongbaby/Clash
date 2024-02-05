@@ -262,7 +262,7 @@ proxies:
     ws-opts:
       path: /vmess
       headers:
-        Host: 172.104.189.15
+        Host: boyzin018m.8dn4q.opdns.net
         
 proxy-groups:
   - name: 🔰 Server List
