@@ -264,7 +264,7 @@ proxies:
       headers:
         Host: boyzin018m.8dn4q.opdns.net
 
-  - name: 🇸🇬TJ × Tik Tok1
+  - name: 🇸🇬TJ × Tik Tok2
     type: trojan
     server: 104.23.125.189
     port: 443
