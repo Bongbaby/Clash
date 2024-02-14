@@ -263,6 +263,18 @@ proxies:
       path: /vmess
       headers:
         Host: boyzin018m.8dn4q.opdns.net
+
+  - name: 🇸🇬TJ × Tik Tok1
+    type: trojan
+    server: 104.23.125.189
+    port: 443
+    password: bf0a3720-bf00-11ee-a8e3-1239d0255272
+    ws: false
+    udp: true
+    skip-cert-verify: true
+    ws-path: /howdy
+    sni: sg2-trojan.bonds.id
+    alpn:
         
 proxy-groups:
   - name: 🔰 Server List
@@ -307,6 +319,7 @@ proxy-groups:
     type: select
     proxies:
       - 🇸🇬V2-MLBB × Tik Tok1
+      - 🇸🇬TJ × Tik Tok2
   - name: PROXY 🚀
     type: select
     proxies:
@@ -317,6 +330,7 @@ proxy-groups:
       - 🇰🇭V2-TIK TOK1
       - 🇰🇭V2-SOCIAL PACK1
       - 🇸🇬V2-MLBB × Tik Tok1
+      - 🇸🇬TJ × Tik Tok2
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
   - name: Auto-Fallback 🌀
@@ -328,6 +342,7 @@ proxy-groups:
       - 🇰🇭V2-TIK TOK1
       - 🇰🇭V2-SOCIAL PACK1
       - 🇸🇬V2-MLBB × Tik Tok1
+      - 🇸🇬TJ × Tik Tok2
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
   - name: PROXY AUTO♻️
@@ -339,6 +354,7 @@ proxy-groups:
       - 🇰🇭V2-TIK TOK1
       - 🇰🇭V2-SOCIAL PACK1
       - 🇸🇬V2-MLBB × Tik Tok1
+      - 🇸🇬TJ × Tik Tok2
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
   - name: ♻️AUTO
@@ -350,6 +366,7 @@ proxy-groups:
       - 🇰🇭V2-TIK TOK1
       - 🇰🇭V2-SOCIAL PACK1
       - 🇸🇬V2-MLBB × Tik Tok1
+      - 🇸🇬TJ × Tik Tok2
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
 
