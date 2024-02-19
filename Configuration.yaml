@@ -34,7 +34,7 @@ proxies:
     server: 220.158.233.184
     port: 10000
     type: vmess
-    uuid: c8d3705e-ca2f-11ee-ad41-f36e6dbc86f9
+    uuid: fe7887fc-cee0-11ee-92fa-c763ecdec735
     alterId: 0
     cipher: auto
     tls: false
@@ -51,7 +51,7 @@ proxies:
     server: 220.158.233.184
     port: 10000
     type: vmess
-    uuid: b290ca8a-ca2f-11ee-bf81-1b71635655c6
+    uuid: a9c0b79e-cedf-11ee-92f4-8f895ee87978
     alterId: 0
     cipher: auto
     tls: false
@@ -68,7 +68,7 @@ proxies:
     server: 220.158.233.184
     port: 10000
     type: vmess
-    uuid: 9f79648e-ca2f-11ee-8d3d-33afb0dfb342
+    uuid: 1cc99f5e-cedf-11ee-8f24-331f88bd6e71
     alterId: 0
     cipher: auto
     tls: false
@@ -85,7 +85,7 @@ proxies:
     server: 220.158.233.184
     port: 10000
     type: vmess
-    uuid: 83463198-ca2f-11ee-9a09-57ee730878fc
+    uuid: 54ed9e90-cede-11ee-abd6-ebd1b72291d9
     alterId: 0
     cipher: auto
     tls: false
@@ -204,7 +204,7 @@ proxies:
     server: 220.158.233.184
     port: 10000
     type: vmess
-    uuid: a5dcd682-a9d0-11ee-91f0-9bac6ac0bf07
+    uuid: fe7887fc-cee0-11ee-92fa-c763ecdec735
     alterId: 0
     cipher: auto
     tls: false
@@ -236,7 +236,7 @@ proxies:
     server: 220.158.233.184
     port: 10000
     type: vmess
-    uuid: 2cd3f51e-a268-11ee-bc0e-4398c11dcea6
+    uuid: fe7887fc-cee0-11ee-92fa-c763ecdec735
     alterId: 0
     cipher: auto
     tls: false
