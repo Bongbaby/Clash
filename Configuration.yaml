@@ -160,11 +160,11 @@ proxies:
     sni: m.mobilelegends.com
     alpn:
 
-  - name: 🇺🇸TJ-MLBB2
+  - name: 🇸🇬🇮🇩TJ-MLBB2
     type: trojan
-    server: us1.test3.net
+    server: sg2-trojan.bonds.id
     port: 443
-    password: bf0a3720-bf00-11ee-a8e3-1239d0255272
+    password: f4535f60-d334-11ee-b477-1239d0255272
     ws: false
     udp: true
     skip-cert-verify: true
