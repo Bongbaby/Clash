@@ -34,7 +34,7 @@ proxies:
     server: 220.158.233.184
     port: 10000
     type: vmess
-    uuid: a5cd1364-dc2a-11ee-8785-4323e257bf03
+    uuid: cb3fbba0-e018-11ee-8d3e-c7c2c6318337
     alterId: 0
     cipher: auto
     tls: false
@@ -51,7 +51,7 @@ proxies:
     server: 220.158.233.184
     port: 10000
     type: vmess
-    uuid: 8cb32076-dc2a-11ee-addc-4ffe0e9fab49
+    uuid: e9a168f0-e018-11ee-9369-076cdccf4f8a
     alterId: 0
     cipher: auto
     tls: false
@@ -68,7 +68,7 @@ proxies:
     server: 220.158.233.184
     port: 10000
     type: vmess
-    uuid: 52df26c4-dc2a-11ee-a673-6f45b361db7c
+    uuid: 0a7fdeee-e019-11ee-8de6-93f200ec69bc
     alterId: 0
     cipher: auto
     tls: false
@@ -179,9 +179,9 @@ proxies:
 
   - name: 🇸🇬🇮🇩TJ-MLBB2
     type: trojan
-    server: sg2-trojan.bonds.id
+    server: sg1-trojan.bonds.id
     port: 443
-    password: f4535f60-d334-11ee-b477-1239d0255272
+    password: c79b7250-e019-11ee-95f9-1239d0255272
     ws: false
     udp: true
     skip-cert-verify: true
