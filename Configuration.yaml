@@ -152,7 +152,7 @@ proxies:
     server: th1.vpnjantit.com
     port: 10000
     type: vmess
-    uuid: c6a257e6-d939-11ee-a1c5-00163ea61c9a
+    uuid: b7b37f7c-e8bf-11ee-851c-00163ea61c9a
     alterId: 0
     cipher: auto
     tls: false
