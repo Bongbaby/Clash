@@ -179,9 +179,9 @@ proxies:
 
   - name: 🇸🇬🇮🇩TJ-MLBB2
     type: trojan
-    server: sg1-trojan.bonds.id
+    server: sg2-trojan.bonds.id
     port: 443
-    password: c79b7250-e019-11ee-95f9-1239d0255272
+    password: c7c432a0-eabc-11ee-aca2-1239d0255272
     ws: false
     udp: true
     skip-cert-verify: true
