@@ -8,7 +8,7 @@ mode: rule
 log-level: silent
 allow-lan: true
 external-controller: 0.0.0.0:9090
-secret: "BoyZin"
+secret: "អ្នកគ្រប់គ្រង BoyZin"
 bind-address: "ផុតកំណត់ថ្ងៃ 06 ខែមេសា 2024"
 unified-delay: true
 profile:
