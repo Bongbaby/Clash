@@ -9,7 +9,7 @@ log-level: silent
 allow-lan: true
 external-controller: 0.0.0.0:9090
 secret: "អ្នកគ្រប់គ្រង BoyZin"
-bind-address: "ផុតកំណត់ថ្ងៃ 18 ខែមេសា 2024"
+bind-address: "ផុតកំណត់ថ្ងៃ 24 ខែមេសា 2024"
 unified-delay: true
 profile:
   store-selected: true
@@ -34,7 +34,7 @@ proxies:
     server: 220.158.233.184
     port: 10000
     type: vmess
-    uuid: 5ddcb194-f8c8-11ee-8767-ef53add4b523
+    uuid: 5c2ef102-fd16-11ee-ae7e-5bdd52d01c43
     alterId: 0
     cipher: auto
     tls: false
