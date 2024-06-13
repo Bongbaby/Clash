@@ -135,7 +135,7 @@ proxies:
     server: usa7.vpnjantit.com
     port: 10000
     type: vmess
-    uuid: 956c8164-bebe-11ee-bae2-97eabe0d1990
+    uuid: 60eb7214-2936-11ef-9c8a-b7d3d0b641d8
     alterId: 0
     cipher: auto
     tls: false
