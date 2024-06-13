@@ -191,9 +191,9 @@ proxies:
 
   - name: 🇺🇸TJ-MLBB3
     type: trojan
-    server: usa.test3.net
+    server: uk1.test3.net
     port: 443
-    password: 9efc7090-2934-11ef-8a68-1239d0255272
+    password: 84761a80-2935-11ef-8ec8-1239d0255272
     ws: false
     udp: true
     skip-cert-verify: true
