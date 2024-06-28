@@ -9,7 +9,7 @@ log-level: silent
 allow-lan: true
 external-controller: 0.0.0.0:9090
 secret: "អ្នកគ្រប់គ្រង BoyZin"
-bind-address: "ផុតកំណត់ថ្ងៃ 02 ខែមេសា 2024"
+bind-address: "ផុតកំណត់ថ្ងៃ 02 ខែកក្កដា 2024"
 unified-delay: true
 profile:
   store-selected: true
