@@ -34,7 +34,7 @@ proxies:
     server: 220.158.233.184
     port: 10000
     type: vmess
-    uuid: 81e21dcc-3851-11ef-ad40-7fce8190c0dd
+    uuid: 29fda2a8-3c56-11ef-af0a-1fbc84c0f9c0
     alterId: 0
     cipher: auto
     tls: false
@@ -85,7 +85,7 @@ proxies:
     server: 220.158.233.184
     port: 10000
     type: vmess
-    uuid: 75ba538e-3851-11ef-80eb-cb7e30f776ea
+    uuid: 0b3ad1fc-3c55-11ef-8120-6f150816239f
     alterId: 0
     cipher: auto
     tls: false
