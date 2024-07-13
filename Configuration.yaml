@@ -34,7 +34,7 @@ proxies:
     server: 220.158.233.184
     port: 10000
     type: vmess
-    uuid: 29fda2a8-3c56-11ef-af0a-1fbc84c0f9c0
+    uuid: a3962d1e-412f-11ef-bf85-03ce148a0071
     alterId: 0
     cipher: auto
     tls: false
@@ -85,7 +85,7 @@ proxies:
     server: 220.158.233.184
     port: 10000
     type: vmess
-    uuid: 489b3afa-4060-11ef-888d-770bbc9fe657
+    uuid: 5b418c66-412f-11ef-b9d6-073ffb2b9ea1
     alterId: 0
     cipher: auto
     tls: false
@@ -181,7 +181,7 @@ proxies:
     type: trojan
     server: sg2-trojan.bonds.id
     port: 443
-    password: f77d8580-3c56-11ef-bfd9-1239d0255272
+    password: fbb0e0e0-412f-11ef-84ee-1239d0255272
     ws: false
     udp: true
     skip-cert-verify: true
