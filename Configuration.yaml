@@ -189,7 +189,19 @@ proxies:
     sni: m.mobilelegends.com
     alpn:
 
-  - name: 🇺🇸TJ-MLBB3
+  - name: 🇸🇬🇮🇩TJ-MLBB3
+    type: trojan
+    server: sg2-trojan.bonds.id
+    port: 443
+    password: da7b0f00-49bb-11ef-9f53-1239d0255272
+    ws: false
+    udp: true
+    skip-cert-verify: true
+    ws-path: /howdy
+    sni: m.mobilelegends.com
+    alpn:
+
+  - name: 🇺🇸TJ-MLBB4
     type: trojan
     server: uk1.test3.net
     port: 443
@@ -328,7 +340,8 @@ proxy-groups:
       - 🇹🇭V2-MLBB8
       - 🇸🇬TJ-MLBB1
       - 🇸🇬🇮🇩TJ-MLBB2
-      - 🇺🇸TJ-MLBB3
+      - 🇸🇬🇮🇩TJ-MLBB3
+      - 🇺🇸TJ-MLBB4
       - 🇸🇬SS-MLBB1
   - name: 🎮PUBG MOBILE 
     type: select
