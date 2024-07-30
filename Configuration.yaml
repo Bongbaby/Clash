@@ -333,6 +333,23 @@ proxies:
     ws-path: /howdy
     sni: sg2-trojan.bonds.id
     alpn:
+
+  - name: 🇰🇭V2-MLBB × Tik Tok2
+    server: 104.16.125.32
+    port: 8880
+    type: vmess
+    uuid: 9e59496c-3271-4588-98c0-1453fcc789da
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: m.mobilelegends.com
+    network: ws
+    ws-opts:
+      path: /free
+      headers:
+        Host: cambodiavps.angkorssh.cloud
+    udp: true
         
 proxy-groups:
   - name: 🔰 Server List
@@ -382,6 +399,7 @@ proxy-groups:
     proxies:
       - 🇸🇬V2-MLBB × Tik Tok1
       - 🇸🇬TJ × Tik Tok2
+      - 🇰🇭V2-MLBB × Tik Tok2
   - name: PROXY 🚀
     type: select
     proxies:
