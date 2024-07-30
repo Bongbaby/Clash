@@ -98,6 +98,23 @@ proxies:
         Host: m.mobilelegends.com
     udp: true
 
+  - name: 🇰🇭V2-MLBB5
+    server: cambodiavps.angkorssh.cloud
+    port: 8880
+    type: vmess
+    uuid: 9e59496c-3271-4588-98c0-1453fcc789da
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: m.mobilelegends.com
+    network: ws
+    ws-opts:
+      path: /free
+      headers:
+        Host: m.mobilelegends.com
+    udp: true
+
   - name: 🇸🇬V2-MLBB5
     server: 103.253.24.221
     port: 443
@@ -334,6 +351,7 @@ proxy-groups:
       - 🇰🇭V2-MLBB2
       - 🇰🇭V2-MLBB3
       - 🇰🇭V2-MLBB4
+      - 🇰🇭V2-MLBB5
       - 🇸🇬V2-MLBB5
       - 🇸🇬V2-MLBB6
       - 🇺🇸V2-MLBB7
