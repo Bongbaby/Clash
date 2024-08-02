@@ -98,7 +98,7 @@ proxies:
         Host: m.mobilelegends.com
     udp: true
 
-  - name: 🇰🇭V2-MLBB5
+  - name: 🇰🇭V2-MLBB5 30GB
     server: cambodiavps.angkorssh.cloud
     port: 8880
     type: vmess
@@ -334,7 +334,7 @@ proxies:
     sni: sg2-trojan.bonds.id
     alpn:
 
-  - name: 🇰🇭V2-MLBB × Tik Tok2
+  - name: 🇰🇭V2-MLBB × Tik Tok2 30GB
     server: 104.16.125.32
     port: 8880
     type: vmess
@@ -368,7 +368,7 @@ proxy-groups:
       - 🇰🇭V2-MLBB2
       - 🇰🇭V2-MLBB3
       - 🇰🇭V2-MLBB4
-      - 🇰🇭V2-MLBB5
+      - 🇰🇭V2-MLBB5 30GB
       - 🇸🇬V2-MLBB5
       - 🇸🇬V2-MLBB6
       - 🇺🇸V2-MLBB7
@@ -399,7 +399,7 @@ proxy-groups:
     proxies:
       - 🇸🇬V2-MLBB × Tik Tok1
       - 🇸🇬TJ × Tik Tok2
-      - 🇰🇭V2-MLBB × Tik Tok2
+      - 🇰🇭V2-MLBB × Tik Tok2 30GB
   - name: PROXY 🚀
     type: select
     proxies:
