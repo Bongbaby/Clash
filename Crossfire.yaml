@@ -124,36 +124,18 @@ proxy-groups:
     type: fallback
     proxies:
       - 🇰🇭V2-MLBB1
-      - 🇰🇭V2-PUBG1
-      - 🇰🇭V2-FREE1
-      - 🇰🇭V2-TIK TOK1
-      - 🇰🇭V2-SOCIAL PACK1
-      - 🇸🇬V2-MLBB × Tik Tok1
-      - 🇸🇬TJ × Tik Tok2
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
   - name: PROXY AUTO♻️
     type: url-test
     proxies:
       - 🇰🇭V2-MLBB1
-      - 🇰🇭V2-PUBG1
-      - 🇰🇭V2-FREE1
-      - 🇰🇭V2-TIK TOK1
-      - 🇰🇭V2-SOCIAL PACK1
-      - 🇸🇬V2-MLBB × Tik Tok1
-      - 🇸🇬TJ × Tik Tok2
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
   - name: ♻️AUTO
     type: url-test
     proxies:
       - 🇰🇭V2-MLBB1
-      - 🇰🇭V2-PUBG1
-      - 🇰🇭V2-FREE1
-      - 🇰🇭V2-TIK TOK1
-      - 🇰🇭V2-SOCIAL PACK1
-      - 🇸🇬V2-MLBB × Tik Tok1
-      - 🇸🇬TJ × Tik Tok2
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
 
