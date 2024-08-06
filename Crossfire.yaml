@@ -64,137 +64,7 @@ proxies:
         Host: m.mobilelegends.com
     udp: true
   
-  - name: 🇰🇭V2-MLBB3
-    server: 220.158.233.184
-    port: 10000
-    type: vmess
-    uuid: 33514fe4-0263-11ef-a924-afe4069b775d
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: m.mobilelegends.com
-    network: ws
-    ws-opts:
-      path: /vpnjantit
-      headers:
-        Host: m.mobilelegends.com
-    udp: true
-
-  - name: 🇰🇭V2-MLBB4
-    server: 220.158.233.184
-    port: 10000
-    type: vmess
-    uuid: 0c79814e-53b1-11ef-a560-2bbbe4ca0b9c
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: m.mobilelegends.com
-    network: ws
-    ws-opts:
-      path: /vpnjantit
-      headers:
-        Host: m.mobilelegends.com
-    udp: true
-
-  - name: 🇰🇭V2-MLBB5 30GB
-    server: cambodiavps.angkorssh.cloud
-    port: 8880
-    type: vmess
-    uuid: 9e59496c-3271-4588-98c0-1453fcc789da
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: m.mobilelegends.com
-    network: ws
-    ws-opts:
-      path: /free
-      headers:
-        Host: m.mobilelegends.com
-    udp: true
-
-  - name: 🇸🇬V2-MLBB5
-    server: 103.253.24.221
-    port: 443
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /sshkit/1229251110/65444c9c47aa4/
-      headers:
-        Host: m.mobilelegends.com
-    udp: false
-
-  - name: 🇸🇬V2-MLBB6
-    server: 45.12.80.144
-    port: 10000
-    type: vmess
-    uuid: 64d60e60-a269-11ee-b9f5-00163e0c1be4
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: m.mobilelegends.com
-    network: ws
-    ws-opts:
-      path: /vpnjantit
-      headers:
-        Host: m.mobilelegends.com
-    udp: true
-
-  - name: 🇺🇸V2-MLBB7
-    server: usa7.vpnjantit.com
-    port: 10000
-    type: vmess
-    uuid: 60eb7214-2936-11ef-9c8a-b7d3d0b641d8
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: m.mobilelegends.com
-    network: ws
-    ws-opts:
-      path: /vpnjantit
-      headers:
-        Host: m.mobilelegends.com
-    udp: true
-
-  - name: 🇹🇭V2-MLBB8
-    server: th1.vpnjantit.com
-    port: 10000
-    type: vmess
-    uuid: b7b37f7c-e8bf-11ee-851c-00163ea61c9a
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: m.mobilelegends.com
-    network: ws
-    ws-opts:
-      path: /vpnjantit
-      headers:
-        Host: m.mobilelegends.com
-    udp: true
-
-  - name: 🇸🇬TJ-MLBB1
-    type: trojan
-    server: 149.28.131.42
-    port: 443
-    password: opentunnel.net-mwtgrj
-    ws: false
-    udp: true
-    skip-cert-verify: true
-    ws-path: /
-    sni: m.mobilelegends.com
-    alpn:
-
-  - name: 🇸🇬🇮🇩TJ-MLBB2
+  - name: 🇸🇬🇮🇩TJ-MLBB1
     type: trojan
     server: sg1-trojan.bonds.id
     port: 443
@@ -206,7 +76,7 @@ proxies:
     sni: m.mobilelegends.com
     alpn:
 
-  - name: 🇸🇬🇮🇩TJ-MLBB3
+  - name: 🇸🇬🇮🇩TJ-MLBB2
     type: trojan
     server: sg2-trojan.bonds.id
     port: 443
@@ -218,7 +88,7 @@ proxies:
     sni: m.mobilelegends.com
     alpn:
 
-  - name: 🇺🇸TJ-MLBB4
+  - name: 🇺🇸TJ-MLBB3
     type: trojan
     server: ca1.test3.net
     port: 443
@@ -229,177 +99,20 @@ proxies:
     ws-path: /howdy
     sni: m.mobilelegends.com
     alpn:
-
-  - name: 🇸🇬SS-MLBB1
-    type: ss
-    server: sg-ss.sshmax.xyz
-    port: 8139
-    cipher: chacha20-ietf-poly1305
-    password: ZGE5MjEz
-    plugin: obfs
-    plugin-opts:
-       mode: http
-       host: m.mobilelegends.com
-
-  - name: 🇰🇭V2-PUBG1
-    server: 220.158.233.184
-    port: 10000
-    type: vmess
-    uuid: 5004ac72-a268-11ee-8cf6-cb97b6daa7d4
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: m.mobilelegends.com
-    network: ws
-    ws-opts:
-      path: /vpnjantit
-      headers:
-        Host: www.pubgmobile.com
-    udp: true
-
-  - name: 🇰🇭V2-FREE1
-    server: 220.158.233.184
-    port: 10000
-    type: vmess
-    uuid: fe7887fc-cee0-11ee-92fa-c763ecdec735
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: m.mobilelegends.com
-    network: ws
-    ws-opts:
-      path: /vpnjantit
-      headers:
-        Host: m.freefiremobile.com
-
-  - name: 🇰🇭V2-TIK TOK1
-    server: 220.158.233.184
-    port: 10000
-    type: vmess
-    uuid: 2cd3f51e-a268-11ee-bc0e-4398c11dcea6
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: m.mobilelegends.com
-    network: ws
-    ws-opts:
-      path: /vpnjantit
-      headers:
-        Host: www.tiktok.com
-
-  - name: 🇰🇭V2-SOCIAL PACK1
-    server: 220.158.233.184
-    port: 10000
-    type: vmess
-    uuid: 9c05d52c-d44c-11ee-949a-8f218e149b17
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: m.mobilelegends.com
-    network: ws
-    ws-opts:
-      path: /vpnjantit
-      headers:
-        Host: m.line.me
-
-  - name: 🇸🇬V2-MLBB × Tik Tok1
-    server: 104.23.125.189
-    port: 80
-    type: vmess
-    uuid: ffc21aa9-1d58-4e49-986b-57bcbaea94fa
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: 172.104.189.15
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: boyzin018m.8dn4q.opdns.net
-
-  - name: 🇸🇬TJ × Tik Tok2
-    type: trojan
-    server: 104.23.125.189
-    port: 443
-    password: 4ea54200-3ec8-11ef-86cf-1239d0255272
-    ws: false
-    udp: true
-    skip-cert-verify: true
-    ws-path: /howdy
-    sni: sg2-trojan.bonds.id
-    alpn:
-
-  - name: 🇰🇭V2-MLBB × Tik Tok2 30GB
-    server: 104.16.125.32
-    port: 8880
-    type: vmess
-    uuid: 9e59496c-3271-4588-98c0-1453fcc789da
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: m.mobilelegends.com
-    network: ws
-    ws-opts:
-      path: /free
-      headers:
-        Host: cambodiavps.angkorssh.cloud
-    udp: true
-        
+    
 proxy-groups:
   - name: 🔰 Server List
     type: select
     proxies:
       - 🎮MLBB PROMO
-      - 🎮PUBG MOBILE
-      - 🎮FREE FIRE
-      - 🔰TIK TOK
-      - 🔰SOCIAL PACK
-      - 🔰MLBB × Tik Tok Metfone
   - name: 🎮MLBB PROMO
     type: select
     proxies:
       - 🇰🇭V2-MLBB1
       - 🇰🇭V2-MLBB2
-      - 🇰🇭V2-MLBB3
-      - 🇰🇭V2-MLBB4
-      - 🇰🇭V2-MLBB5 30GB
-      - 🇸🇬V2-MLBB5
-      - 🇸🇬V2-MLBB6
-      - 🇺🇸V2-MLBB7
-      - 🇹🇭V2-MLBB8
-      - 🇸🇬TJ-MLBB1
+      - 🇸🇬🇮🇩TJ-MLBB1
       - 🇸🇬🇮🇩TJ-MLBB2
-      - 🇸🇬🇮🇩TJ-MLBB3
-      - 🇺🇸TJ-MLBB4
-      - 🇸🇬SS-MLBB1
-  - name: 🎮PUBG MOBILE 
-    type: select
-    proxies:
-      - 🇰🇭V2-PUBG1
-  - name: 🎮FREE FIRE
-    type: select
-    proxies:
-      - 🇰🇭V2-FREE1
-  - name: 🔰TIK TOK
-    type: select
-    proxies:
-      - 🇰🇭V2-TIK TOK1
-  - name: 🔰SOCIAL PACK
-    type: select
-    proxies:
-      - 🇰🇭V2-SOCIAL PACK1
-  - name: 🔰MLBB × Tik Tok Metfone
-    type: select
-    proxies:
-      - 🇸🇬V2-MLBB × Tik Tok1
-      - 🇸🇬TJ × Tik Tok2
-      - 🇰🇭V2-MLBB × Tik Tok2 30GB
+      - 🇺🇸TJ-MLBB3
   - name: PROXY 🚀
     type: select
     proxies:
