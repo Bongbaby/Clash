@@ -63,6 +63,23 @@ proxies:
       headers:
         Host: m.mobilelegends.com
     udp: true
+
+  - name: 🇮🇩V2-MLBB1
+    server: id1-ray.ipservers.xyz
+    port: 443
+    type: vmess
+    uuid: a794ab10-cdc0-4387-ab9e-774653dae3f9
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: m.mobilelegends.com
+    network: ws
+    ws-opts:
+      path: /JAGOANSSH/
+      headers:
+        Host: m.mobilelegends.com
+    udp: true
   
   - name: 🇸🇬🇮🇩TJ-MLBB1
     type: trojan
