@@ -139,6 +139,23 @@ proxies:
     plugin-opts:
        mode: http
        host: m.mobilelegends.com
+
+  - name: 🇰🇭V2-MLBB × Tik Tok2 30GB
+    server: 104.16.125.32
+    port: 2083
+    type: vmess
+    uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: m.mobilelegends.com
+    network: ws
+    ws-opts:
+      path: /TSBgGkLqaxnignSz/NjIuMy4xMi4xODU=?ed=2560
+      headers:
+        Host: gU-2r-E35m-eO-2rTT-3f-b-CDq-2G4t-t5-Hdr4-6Yvd-35gH-dwE64-w.pAGes.Dev
+    udp: true
     
 proxy-groups:
   - name: 🔰 Server List
@@ -156,6 +173,7 @@ proxy-groups:
       - 🇸🇬TJ × Tik Tok2
       - 🇺🇸TJ-MLBB3
       - 🇮🇩SS-MLBB1
+      - 🇰🇭V2-MLBB × Tik Tok2 30GB
   - name: PROXY 🚀
     type: select
     proxies:
