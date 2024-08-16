@@ -107,14 +107,14 @@ proxies:
 
   - name: 🇸🇬TJ × Tik Tok2
     type: trojan
-    server: 104.23.125.189
+    server: 104.16.125.32
     port: 443
-    password: 7bcf1350-49c7-11ef-9410-1239d0255272
+    password: 2bc792d0-586e-11ef-a665-1239d0255272
     ws: false
     udp: true
     skip-cert-verify: true
     ws-path: /howdy
-    sni: sg1-trojan.bonds.id
+    sni: sg2-trojan.bonds.id
     alpn:
 
   - name: 🇺🇸TJ-MLBB3
