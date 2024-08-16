@@ -105,6 +105,18 @@ proxies:
     sni: m.mobilelegends.com
     alpn:
 
+  - name: 🇸🇬TJ × Tik Tok2
+    type: trojan
+    server: 104.23.125.189
+    port: 443
+    password: 2bc792d0-586e-11ef-a665-1239d0255272
+    ws: false
+    udp: true
+    skip-cert-verify: true
+    ws-path: /howdy
+    sni: sg2-trojan.bonds.id
+    alpn:
+
   - name: 🇺🇸TJ-MLBB3
     type: trojan
     server: ca1.test3.net
@@ -141,6 +153,7 @@ proxy-groups:
       - 🇮🇩V2-MLBB1
       - 🇸🇬🇮🇩TJ-MLBB1
       - 🇸🇬🇮🇩TJ-MLBB2
+      - 🇸🇬TJ × Tik Tok2
       - 🇺🇸TJ-MLBB3
       - 🇮🇩SS-MLBB1
   - name: PROXY 🚀
