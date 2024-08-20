@@ -142,9 +142,9 @@ proxies:
 
   - name: 🇰🇭V2-MLBB × Tik Tok2 30GB
     server: 104.16.125.32
-    port: 2083
+    port: 443
     type: vmess
-    uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+    uuid: 89e26ef5-2708-47ee-8c0a-639369d8f675
     alterId: 0
     cipher: auto
     tls: false
@@ -152,9 +152,9 @@ proxies:
     servername: m.mobilelegends.com
     network: ws
     ws-opts:
-      path: /TSBgGkLqaxnignSz/NjIuMy4xMi4xODU=?ed=2560
+      path: /vmess
       headers:
-        Host: gU-2r-E35m-eO-2rTT-3f-b-CDq-2G4t-t5-Hdr4-6Yvd-35gH-dwE64-w.pAGes.Dev
+        Host: sg1.xraysrv.sbs
     udp: true
     
 proxy-groups:
