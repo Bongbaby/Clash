@@ -149,7 +149,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: m.mobilelegends.com
+    servername: sg1.xraysrv.sbs
     network: ws
     ws-opts:
       path: /vmess
