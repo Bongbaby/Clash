@@ -34,7 +34,7 @@ proxies:
     server: 220.158.233.184
     port: 10000
     type: vmess
-    uuid: ff310e0c-69d2-11ef-9d00-ef843771b5be
+    uuid: b8b0f51c-6b96-11ef-8117-1f630aaa3c1b
     alterId: 0
     cipher: auto
     tls: false
@@ -52,6 +52,23 @@ proxies:
     port: 10000
     type: vmess
     uuid: b8b0f51c-6b96-11ef-8117-1f630aaa3c1b
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: m.mobilelegends.com
+    network: ws
+    ws-opts:
+      path: /vpnjantit
+      headers:
+        Host: m.mobilelegends.com
+    udp: true
+
+  - name: 🇹🇭TH V2-MLBB1
+    server: 185.78.165.153
+    port: 10000
+    type: vmess
+    uuid: 55e3f69a-6c0f-11ef-8d4a-13c1c2fbe9b8
     alterId: 0
     cipher: auto
     tls: false
@@ -167,6 +184,7 @@ proxy-groups:
     proxies:
       - 🇰🇭V2-MLBB1
       - 🇰🇭V2-MLBB2
+      - 🇹🇭TH V2-MLBB1
       - 🇮🇩V2-MLBB1
       - 🇸🇬🇮🇩TJ-MLBB1
       - 🇸🇬🇮🇩TJ-MLBB2
