@@ -30,11 +30,11 @@ dns:
     
 proxies:
 
-  - name: 🇰🇭V2-MLBB1
+  - name: 🇰🇭KH V2-MLBB1
     server: 220.158.233.184
     port: 10000
     type: vmess
-    uuid: b8b0f51c-6b96-11ef-8117-1f630aaa3c1b
+    uuid: 99844964-6f47-11ef-a94b-1fbc9673369f
     alterId: 0
     cipher: auto
     tls: false
@@ -47,11 +47,11 @@ proxies:
         Host: m.mobilelegends.com
     udp: true
 
-  - name: 🇰🇭V2-MLBB2
+  - name: 🇰🇭KH V2-MLBB2
     server: 220.158.233.184
     port: 10000
     type: vmess
-    uuid: b8b0f51c-6b96-11ef-8117-1f630aaa3c1b
+    uuid: a3dd285e-6f47-11ef-81ba-d38d4c5acd55
     alterId: 0
     cipher: auto
     tls: false
@@ -68,7 +68,7 @@ proxies:
     server: 185.78.165.153
     port: 10000
     type: vmess
-    uuid: 55e3f69a-6c0f-11ef-8d4a-13c1c2fbe9b8
+    uuid: c3d3a390-6f47-11ef-894e-337eda9e4104
     alterId: 0
     cipher: auto
     tls: false
@@ -182,8 +182,8 @@ proxy-groups:
   - name: 🎮MLBB PROMO
     type: select
     proxies:
-      - 🇰🇭V2-MLBB1
-      - 🇰🇭V2-MLBB2
+      - 🇰🇭KH V2-MLBB1
+      - 🇰🇭KH V2-MLBB2
       - 🇹🇭TH V2-MLBB1
       - 🇮🇩V2-MLBB1
       - 🇸🇬🇮🇩TJ-MLBB1
