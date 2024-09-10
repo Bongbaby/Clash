@@ -196,25 +196,25 @@ proxy-groups:
     type: select
     proxies:
       - PROXY AUTO♻️
-      - 🇰🇭V2-MLBB1
+      - 🇰🇭KH V2-MLBB1
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
   - name: Auto-Fallback 🌀
     type: fallback
     proxies:
-      - 🇰🇭V2-MLBB1
+      - 🇰🇭KH V2-MLBB1
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
   - name: PROXY AUTO♻️
     type: url-test
     proxies:
-      - 🇰🇭V2-MLBB1
+      - 🇰🇭KH V2-MLBB1
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
   - name: ♻️AUTO
     type: url-test
     proxies:
-      - 🇰🇭V2-MLBB1
+      - 🇰🇭KH V2-MLBB1
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
 
