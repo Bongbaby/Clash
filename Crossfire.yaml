@@ -219,11 +219,13 @@ proxy-groups:
     proxies:
       - PROXY AUTO♻️
       - 🇰🇭KH V2-MLBB1
+      - 🇰🇭KH V2-MLBB1
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
   - name: Auto-Fallback 🌀
     type: fallback
     proxies:
+      - 🇰🇭KH V2-MLBB1
       - 🇰🇭KH V2-MLBB1
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
@@ -231,11 +233,13 @@ proxy-groups:
     type: url-test
     proxies:
       - 🇰🇭KH V2-MLBB1
+      - 🇰🇭KH V2-MLBB1
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
   - name: ♻️AUTO
     type: url-test
     proxies:
+      - 🇰🇭KH V2-MLBB1
       - 🇰🇭KH V2-MLBB1
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
