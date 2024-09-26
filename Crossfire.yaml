@@ -174,7 +174,7 @@ proxies:
         Host: sg1.xraysrv.sbs
     udp: true
 
-  - name: 🇰🇭KH V2-MLBB1
+  - name: 🇰🇭KH V2-MLBB1 SP
     server: 220.158.233.184
     port: 10000
     type: vmess
@@ -213,34 +213,34 @@ proxy-groups:
   - name: 🔰SOCIAL PACK
     type: select
     proxies:
-      - 🇰🇭KH V2-MLBB1
+      - 🇰🇭KH V2-MLBB1 SP
   - name: PROXY 🚀
     type: select
     proxies:
       - PROXY AUTO♻️
       - 🇰🇭KH V2-MLBB1
-      - 🇰🇭KH V2-MLBB1
+      - 🇰🇭KH V2-MLBB1 SP
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
   - name: Auto-Fallback 🌀
     type: fallback
     proxies:
       - 🇰🇭KH V2-MLBB1
-      - 🇰🇭KH V2-MLBB1
+      - 🇰🇭KH V2-MLBB1 SP
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
   - name: PROXY AUTO♻️
     type: url-test
     proxies:
       - 🇰🇭KH V2-MLBB1
-      - 🇰🇭KH V2-MLBB1
+      - 🇰🇭KH V2-MLBB1 SP
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
   - name: ♻️AUTO
     type: url-test
     proxies:
       - 🇰🇭KH V2-MLBB1
-      - 🇰🇭KH V2-MLBB1
+      - 🇰🇭KH V2-MLBB1 SP
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
 
