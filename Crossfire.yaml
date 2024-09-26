@@ -196,6 +196,7 @@ proxy-groups:
   - name: 🔰SOCIAL PACK
     type: select
     proxies:
+    
   - name: PROXY 🚀
     type: select
     proxies:
