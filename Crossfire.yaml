@@ -193,15 +193,14 @@ proxy-groups:
       - 🇺🇸TJ-MLBB3
       - 🇮🇩SS-MLBB1
       - 🇰🇭V2-MLBB × Tik Tok2 30GB
+  - name: 🔰SOCIAL PACK
+    type: select
+    proxies:
   - name: PROXY 🚀
     type: select
     proxies:
       - PROXY AUTO♻️
       - 🇰🇭KH V2-MLBB1
-  - name: 🔰SOCIAL PACK
-    type: select
-    proxies:
-    
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
   - name: Auto-Fallback 🌀
