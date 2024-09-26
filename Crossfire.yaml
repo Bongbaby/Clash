@@ -173,6 +173,23 @@ proxies:
       headers:
         Host: sg1.xraysrv.sbs
     udp: true
+
+  - name: 🇰🇭KH V2-MLBB1
+    server: 220.158.233.184
+    port: 10000
+    type: vmess
+    uuid: b14bb852-7c21-11ef-8121-93fcc44aeba9
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: m.mobilelegends.com
+    network: ws
+    ws-opts:
+      path: /vpnjantit
+      headers:
+        Host: m.mobilelegends.com
+    udp: true
     
 proxy-groups:
   - name: 🔰 Server List
@@ -196,7 +213,7 @@ proxy-groups:
   - name: 🔰SOCIAL PACK
     type: select
     proxies:
-    
+      - 🇰🇭KH V2-MLBB1
   - name: PROXY 🚀
     type: select
     proxies:
