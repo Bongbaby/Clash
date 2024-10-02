@@ -85,7 +85,7 @@ proxies:
     server: id1-ray.ipservers.xyz
     port: 443
     type: vmess
-    uuid: a794ab10-cdc0-4387-ab9e-774653dae3f9
+    uuid: e06190a0-8079-11ef-bc21-1239d0255272
     alterId: 0
     cipher: auto
     tls: false
@@ -102,7 +102,7 @@ proxies:
     type: trojan
     server: sg1-trojan.bonds.id
     port: 443
-    password: adbc8d40-706a-11ef-a051-1239d0255272
+    password: e06190a0-8079-11ef-bc21-1239d0255272
     ws: false
     udp: true
     skip-cert-verify: true
@@ -114,7 +114,7 @@ proxies:
     type: trojan
     server: sg1-trojan.bonds.id
     port: 443
-    password: c587c090-706a-11ef-a5c7-1239d0255272
+    password: cca41120-8079-11ef-b0c1-1239d0255272
     ws: false
     udp: true
     skip-cert-verify: true
