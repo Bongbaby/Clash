@@ -35,7 +35,7 @@ proxies:
     server: 104.16.125.32
     port: 443
     password: c7e64b30-9f71-11ef-a099-1239d0255272
-    ws: true
+    ws: false
     udp: false
     skip-cert-verify: true
     ws-path: /howdy
