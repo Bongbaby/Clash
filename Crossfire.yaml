@@ -29,104 +29,12 @@ dns:
     - 8.8.4.4
     
 proxies:
-
-  - name: 🇰🇭KH V2-MLBB1
-    server: 220.158.233.184
-    port: 10000
-    type: vmess
-    uuid: 99844964-6f47-11ef-a94b-1fbc9673369f
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: m.mobilelegends.com
-    network: ws
-    ws-opts:
-      path: /vpnjantit
-      headers:
-        Host: m.mobilelegends.com
-    udp: true
-
-  - name: 🇰🇭KH V2-MLBB2
-    server: 220.158.233.184
-    port: 10000
-    type: vmess
-    uuid: 593c1118-871e-11ef-8acf-d749eab1cbfc
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: m.mobilelegends.com
-    network: ws
-    ws-opts:
-      path: /vpnjantit
-      headers:
-        Host: m.mobilelegends.com
-    udp: true
-
-  - name: 🇹🇭TH V2-MLBB1
-    server: 103.114.203.80
-    port: 10000
-    type: vmess
-    uuid: ccfe2f48-7885-11ef-aa17-533ba8de5368
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: m.mobilelegends.com
-    network: ws
-    ws-opts:
-      path: /vpnjantit
-      headers:
-        Host: m.mobilelegends.com
-    udp: true
-
-  - name: 🇮🇩V2-MLBB1
-    server: id1-ray.ipservers.xyz
-    port: 443
-    type: vmess
-    uuid: e06190a0-8079-11ef-bc21-1239d0255272
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: m.mobilelegends.com
-    network: ws
-    ws-opts:
-      path: /JAGOANSSH/
-      headers:
-        Host: m.mobilelegends.com
-    udp: true
   
-  - name: 🇸🇬🇮🇩TJ-MLBB1
-    type: trojan
-    server: sg2-trojan.bonds.id
-    port: 443
-    password: 3bdcbb40-887b-11ef-b2d9-1239d0255272
-    ws: false
-    udp: true
-    skip-cert-verify: true
-    ws-path: /howdy
-    sni: m.mobilelegends.com
-    alpn:
-
-  - name: 🇸🇬🇮🇩TJ-MLBB2
-    type: trojan
-    server: sg2-trojan.bonds.id
-    port: 443
-    password: 2289bae0-887b-11ef-b403-1239d0255272
-    ws: false
-    udp: true
-    skip-cert-verify: true
-    ws-path: /howdy
-    sni: m.mobilelegends.com
-    alpn:
-
-  - name: 🇸🇬TJ × Tik Tok2
+  - name: 🇮🇩V2-MLBB × Tik Tok1
     type: trojan
     server: 104.16.125.32
     port: 443
-    password: 2bc792d0-586e-11ef-a665-1239d0255272
+    password: c7e64b30-9f71-11ef-a099-1239d0255272
     ws: false
     udp: true
     skip-cert-verify: true
@@ -134,113 +42,38 @@ proxies:
     sni: sg2-trojan.bonds.id
     alpn:
 
-  - name: 🇺🇸TJ-MLBB3
-    type: trojan
-    server: ca1.test3.net
-    port: 443
-    password: 0ae66780-5275-11ef-97ec-1239d0255272
-    ws: false
-    udp: true
-    skip-cert-verify: true
-    ws-path: /howdy
-    sni: m.mobilelegends.com
-    alpn:
-
-  - name: 🇮🇩SS-MLBB1
-    type: ss
-    server: idsocks.ipservers.xyz
-    port: 8139
-    cipher: chacha20-ietf-poly1305
-    password: ao5DFwfNdU
-    plugin: obfs
-    plugin-opts:
-       mode: http
-       host: m.mobilelegends.com
-
-  - name: 🇰🇭V2-MLBB × Tik Tok2 30GB
-    server: 104.16.125.32
-    port: 443
-    type: vmess
-    uuid: 89e26ef5-2708-47ee-8c0a-639369d8f675
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg1.xraysrv.sbs
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: sg1.xraysrv.sbs
-    udp: true
-
-  - name: 🇰🇭KH V2-MLBB1 SP
-    server: 220.158.233.184
-    port: 10000
-    type: vmess
-    uuid: b14bb852-7c21-11ef-8121-93fcc44aeba9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: m.mobilelegends.com
-    network: ws
-    ws-opts:
-      path: /vpnjantit
-      headers:
-        Host: m.mobilelegends.com
-    udp: true
-    
 proxy-groups:
   - name: 🔰 Server List
     type: select
     proxies:
       - 🎮MLBB PROMO
-      - 🔰SOCIAL PACK
   - name: 🎮MLBB PROMO
     type: select
     proxies:
-      - 🇰🇭KH V2-MLBB1
-      - 🇰🇭KH V2-MLBB2
-      - 🇹🇭TH V2-MLBB1
-      - 🇮🇩V2-MLBB1
-      - 🇸🇬🇮🇩TJ-MLBB1
-      - 🇸🇬🇮🇩TJ-MLBB2
-      - 🇸🇬TJ × Tik Tok2
-      - 🇺🇸TJ-MLBB3
-      - 🇮🇩SS-MLBB1
-      - 🇰🇭V2-MLBB × Tik Tok2 30GB
-  - name: 🔰SOCIAL PACK
-    type: select
-    proxies:
-      - 🇰🇭KH V2-MLBB1 SP
+      - 🇮🇩V2-MLBB × Tik Tok1
   - name: PROXY 🚀
     type: select
     proxies:
       - PROXY AUTO♻️
-      - 🇰🇭KH V2-MLBB1
-      - 🇰🇭KH V2-MLBB1 SP
+      - 🇮🇩V2-MLBB × Tik Tok1
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
   - name: Auto-Fallback 🌀
     type: fallback
     proxies:
-      - 🇰🇭KH V2-MLBB1
-      - 🇰🇭KH V2-MLBB1 SP
+      - 🇮🇩V2-MLBB × Tik Tok1
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
   - name: PROXY AUTO♻️
     type: url-test
     proxies:
-      - 🇰🇭KH V2-MLBB1
-      - 🇰🇭KH V2-MLBB1 SP
+      - 🇮🇩V2-MLBB × Tik Tok1
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
   - name: ♻️AUTO
     type: url-test
     proxies:
-      - 🇰🇭KH V2-MLBB1
-      - 🇰🇭KH V2-MLBB1 SP
+      - 🇮🇩V2-MLBB × Tik Tok1
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
 
