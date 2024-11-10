@@ -36,7 +36,7 @@ proxies:
     port: 443
     password: c7e64b30-9f71-11ef-a099-1239d0255272
     ws: false
-    udp: false
+    udp: true
     skip-cert-verify: true
     ws-path: /howdy
     sni: sg2-trojan.bonds.id
