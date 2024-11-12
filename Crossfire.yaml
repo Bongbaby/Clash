@@ -30,17 +30,22 @@ dns:
     
 proxies:
   
-  - name: 🇮🇩V2-MLBB × Tik Tok1
-    type: trojan
-    server: 104.16.125.32
-    port: 443
-    password: c7e64b30-9f71-11ef-a099-1239d0255272
-    ws: false
-    udp: true
+  - name: 🇰🇭V2-MLBB1
+    server: 220.158.233.184
+    port: 10000
+    type: vmess
+    uuid: f25baae6-5075-11ef-ae2b-9f77751d8002
+    alterId: 0
+    cipher: auto
+    tls: false
     skip-cert-verify: true
-    ws-path: /howdy
-    sni: sg2-trojan.bonds.id
-    alpn:
+    servername: m.mobilelegends.com
+    network: ws
+    ws-opts:
+      path: /vpnjantit
+      headers:
+        Host: m.mobilelegends.com
+    udp: true
 
 proxy-groups:
   - name: 🔰 Server List
