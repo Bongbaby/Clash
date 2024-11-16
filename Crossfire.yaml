@@ -78,7 +78,7 @@ proxy-groups:
   - name: ♻️AUTO
     type: url-test
     proxies:
-      🇸🇬V2-Metfone × TIKTOK
+      - 🇸🇬V2-Metfone × TIKTOK
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
 
