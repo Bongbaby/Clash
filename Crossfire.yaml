@@ -39,7 +39,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: v2-sg-1.v2ray.cc
+    servername: sg-full.privateip.net
     network: ws
     ws-opts:
       path: /RACEVPN
