@@ -33,7 +33,7 @@ proxies:
   - name: 🇸🇬V2-Metfone × TIKTOK
     server: 104.16.125.32
     port: 443
-    type: vmess
+    type: vless
     uuid: 7772bb24-976a-45ca-aa76-f4f1b7f50923
     alterId: 0
     cipher: auto
