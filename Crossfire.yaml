@@ -39,7 +39,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: m.mobilelegends.com
+    servername: v2-sg-1.v2ray.cc
     network: ws
     ws-opts:
       path: /anything/freevpn.us-Sfbdgvdf/vless
