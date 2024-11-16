@@ -30,11 +30,11 @@ dns:
     
 proxies:
   
-  - name: 🇰🇭V2-MLBB1
-    server: 220.158.233.184
-    port: 10000
+  - name: 🇸🇬V2-Metfone × TIKTOK
+    server: 104.16.125.32
+    port: 443
     type: vmess
-    uuid: f25baae6-5075-11ef-ae2b-9f77751d8002
+    uuid: 7772bb24-976a-45ca-aa76-f4f1b7f50923
     alterId: 0
     cipher: auto
     tls: false
@@ -42,43 +42,43 @@ proxies:
     servername: m.mobilelegends.com
     network: ws
     ws-opts:
-      path: /vpnjantit
+      path: /anything/freevpn.us-Sfbdgvdf/vless
       headers:
-        Host: m.mobilelegends.com
+        Host: v2-sg-1.v2ray.cc
     udp: true
 
 proxy-groups:
   - name: 🔰 Server List
     type: select
     proxies:
-      - 🎮MLBB PROMO
-  - name: 🎮MLBB PROMO
+      - 🎮Metfone × TIKTOK
+  - name: 🎮Metfone × TIKTOK
     type: select
     proxies:
-      - 🇮🇩V2-MLBB × Tik Tok1
+      - 🇸🇬V2-Metfone × TIKTOK
   - name: PROXY 🚀
     type: select
     proxies:
       - PROXY AUTO♻️
-      - 🇮🇩V2-MLBB × Tik Tok1
+      - 🇸🇬V2-Metfone × TIKTOK
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
   - name: Auto-Fallback 🌀
     type: fallback
     proxies:
-      - 🇮🇩V2-MLBB × Tik Tok1
+      - 🇸🇬V2-Metfone × TIKTOK
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
   - name: PROXY AUTO♻️
     type: url-test
     proxies:
-      - 🇮🇩V2-MLBB × Tik Tok1
+      - 🇸🇬V2-Metfone × TIKTOK
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
   - name: ♻️AUTO
     type: url-test
     proxies:
-      - 🇮🇩V2-MLBB × Tik Tok1
+      🇸🇬V2-Metfone × TIKTOK
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
 
