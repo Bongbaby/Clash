@@ -30,7 +30,7 @@ dns:
     
 proxies:
   
-  - name: 🇸🇬V2-Metfone × TIKTOKgg
+  - name: 🇸🇬V2-Metfone × TIKTOK
     server: 104.16.125.32
     port: 443
     type: vmess
