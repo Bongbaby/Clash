@@ -47,38 +47,64 @@ proxies:
         Host: v2-sg-1.v2ray.cc
     udp: true
 
+  - name: 🇰🇭V2-FREE FIRE
+    server: 220.158.233.184
+    port: 10000
+    type: vmess
+    uuid: 10cba26e-356a-11ef-b626-e359cae617e0
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: m.mobilelegends.com
+    network: ws
+    ws-opts:
+      path: /vpnjantit
+      headers:
+        Host: m.freefiremobile.com
+    udp: true
+
 proxy-groups:
   - name: 🔰 Server List
     type: select
     proxies:
       - 🎮Metfone × TIKTOK
+      - 🎮FREE FIRE
   - name: 🎮Metfone × TIKTOK
     type: select
     proxies:
       - 🇸🇬V2-Metfone × TIKTOK
+  - name: 🎮FREE FIRE
+    type: select
+    proxies:
+      - 🇰🇭V2-FREE FIRE
   - name: PROXY 🚀
     type: select
     proxies:
       - PROXY AUTO♻️
       - 🇸🇬V2-Metfone × TIKTOK
+      - 🇰🇭V2-FREE FIRE
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
   - name: Auto-Fallback 🌀
     type: fallback
     proxies:
       - 🇸🇬V2-Metfone × TIKTOK
+      - 🇰🇭V2-FREE FIRE
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
   - name: PROXY AUTO♻️
     type: url-test
     proxies:
       - 🇸🇬V2-Metfone × TIKTOK
+      - 🇰🇭V2-FREE FIRE
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
   - name: ♻️AUTO
     type: url-test
     proxies:
       - 🇸🇬V2-Metfone × TIKTOK
+      - 🇰🇭V2-FREE FIRE
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
 
