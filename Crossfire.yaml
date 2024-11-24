@@ -70,6 +70,7 @@ proxies:
     port: 443
     password: f7dc1740-aa9f-11ef-b6a6-1239d0255272
     ws: false
+    tls: false
     udp: true
     skip-cert-verify: true
     ws-path: /howdy
