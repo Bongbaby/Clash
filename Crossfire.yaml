@@ -68,16 +68,13 @@ proxies:
     type: trojan
     server: 104.16.125.32
     port: 443
-    password: f7dc1740-aa9f-11ef-b6a6-1239d0255272
+    password: d2ce0580-aaa0-11ef-a9ea-1239d0255272
     ws: false
     udp: true
     skip-cert-verify: true
-    servername: sg1-trojan.bonds.id
-    network: ws
     ws-path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
+    sni: sg1-trojan.bonds.id
+    alpn:
 
   - name: 🇰🇭V2-FREE FIRE
     server: 220.158.233.184
