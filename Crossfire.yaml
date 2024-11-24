@@ -64,16 +64,16 @@ proxies:
         Host: sg-full.privateip.net
     udp: true
 
-  - name: 🇸🇬🇮🇩1TJ-Metfone × TIKTOK
+  - name: 🇮🇩1TJ-Metfone × TIKTOK
     type: trojan
     server: 104.16.125.32
     port: 443
-    password: 7bcf1350-49c7-11ef-9410-1239d0255272
+    password: f7dc1740-aa9f-11ef-b6a6-1239d0255272
     ws: false
     udp: true
     skip-cert-verify: true
     ws-path: /howdy
-    sni: sg2-trojan.bonds.id
+    sni: sg1-trojan.bonds.id
     alpn:
 
   - name: 🇰🇭V2-FREE FIRE
@@ -104,6 +104,7 @@ proxy-groups:
     proxies:
       - 🇸🇬1V2-Metfone × TIKTOK
       - 🇸🇬2V2-Metfone × TIKTOK
+      - 🇮🇩1TJ-Metfone × TIKTOK
   - name: 🎮FREE FIRE
     type: select
     proxies:
@@ -114,6 +115,7 @@ proxy-groups:
       - PROXY AUTO♻️
       - 🇸🇬1V2-Metfone × TIKTOK
       - 🇸🇬2V2-Metfone × TIKTOK
+      - 🇮🇩1TJ-Metfone × TIKTOK
       - 🇰🇭V2-FREE FIRE
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
@@ -122,6 +124,7 @@ proxy-groups:
     proxies:
       - 🇸🇬1V2-Metfone × TIKTOK
       - 🇸🇬2V2-Metfone × TIKTOK
+      - 🇮🇩1TJ-Metfone × TIKTOK
       - 🇰🇭V2-FREE FIRE
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
@@ -130,6 +133,7 @@ proxy-groups:
     proxies:
       - 🇸🇬1V2-Metfone × TIKTOK
       - 🇸🇬2V2-Metfone × TIKTOK
+      - 🇮🇩1TJ-Metfone × TIKTOK
       - 🇰🇭V2-FREE FIRE
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
@@ -138,6 +142,7 @@ proxy-groups:
     proxies:
       - 🇸🇬1V2-Metfone × TIKTOK
       - 🇸🇬2V2-Metfone × TIKTOK
+      - 🇮🇩1TJ-Metfone × TIKTOK
       - 🇰🇭V2-FREE FIRE
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
