@@ -56,12 +56,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: 178.128.30.91
+    servername: sg-full.privateip.net
     network: ws
     ws-opts:
       path: /RACEVPN
       headers:
-        Host: 178.128.30.91
+        Host: sg-full.privateip.net
     udp: true
 
   - name: 🇰🇭V2-FREE FIRE
