@@ -30,7 +30,7 @@ dns:
     
 proxies:
   
-  - name: 🇸🇬V2-Metfone × TIKTOK
+  - name: 🇸🇬1V2-Metfone × TIKTOK
     server: 104.16.125.32
     port: 443
     type: vmess
@@ -45,6 +45,23 @@ proxies:
       path: /anything/freevpn.us-Bffvcdcf/vmess
       headers:
         Host: v2-sg-1.v2ray.cc
+    udp: true
+
+  - name: 🇸🇬2V2-Metfone × TIKTOK
+    server: 104.16.125.32
+    port: 443
+    type: vmess
+    uuid: 1b65f1df-303d-441a-8c3a-34d919eca726
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 178.128.30.91
+    network: ws
+    ws-opts:
+      path: /RACEVPN
+      headers:
+        Host: 178.128.30.91
     udp: true
 
   - name: 🇰🇭V2-FREE FIRE
@@ -73,7 +90,8 @@ proxy-groups:
   - name: 🎮Metfone × TIKTOK
     type: select
     proxies:
-      - 🇸🇬V2-Metfone × TIKTOK
+      - 🇸🇬1V2-Metfone × TIKTOK
+      - 🇸🇬2V2-Metfone × TIKTOK
   - name: 🎮FREE FIRE
     type: select
     proxies:
