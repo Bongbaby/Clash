@@ -73,7 +73,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: m.mobilelegends.com
+    servername: sg1-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
