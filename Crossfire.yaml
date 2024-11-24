@@ -68,12 +68,13 @@ proxies:
     type: trojan
     server: 104.16.125.32
     port: 443
-    password: d2ce0580-aaa0-11ef-a9ea-1239d0255272
+    password: 57202981-0705-49fe-8bea-5aea1ed62c74
     ws: false
     udp: true
     skip-cert-verify: true
+    network: ws
     ws-path: /howdy
-    sni: sg1-trojan.bonds.id
+    sni: hk1.safecdn.site
     alpn:
 
   - name: 🇰🇭V2-FREE FIRE
