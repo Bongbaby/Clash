@@ -65,17 +65,21 @@ proxies:
     udp: true
 
   - name: 🇮🇩1TJ-Metfone × TIKTOK
-    type: trojan
     server: 104.16.125.32
     port: 443
-    password: f7dc1740-aa9f-11ef-b6a6-1239d0255272
-    ws: false
+    type: trojan
+    uuid: f7dc1740-aa9f-11ef-b6a6-1239d0255272
+    alterId: 0
+    cipher: auto
     tls: false
-    udp: true
     skip-cert-verify: true
-    ws-path: /howdy
-    sni: sg1-trojan.bonds.id
-    alpn:
+    servername: m.mobilelegends.com
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg1-trojan.bonds.id
+    udp: true
 
   - name: 🇰🇭V2-FREE FIRE
     server: 220.158.233.184
