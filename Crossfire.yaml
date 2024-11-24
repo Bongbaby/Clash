@@ -74,8 +74,7 @@ proxies:
     skip-cert-verify: true
     servername: sg1-trojan.bonds.id
     network: ws
-    ws-opts:
-      path: /howdy
+    ws-path: /howdy
       headers:
         Host: sg1-trojan.bonds.id
     udp: true
