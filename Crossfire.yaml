@@ -64,6 +64,18 @@ proxies:
         Host: sg-full.privateip.net
     udp: true
 
+  - name: 🇸🇬🇮🇩1TJ-Metfone × TIKTOK
+    type: trojan
+    server: 104.16.125.32
+    port: 443
+    password: 7bcf1350-49c7-11ef-9410-1239d0255272
+    ws: false
+    udp: true
+    skip-cert-verify: true
+    ws-path: /howdy
+    sni: sg2-trojan.bonds.id
+    alpn:
+
   - name: 🇰🇭V2-FREE FIRE
     server: 220.158.233.184
     port: 10000
