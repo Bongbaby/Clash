@@ -30,7 +30,7 @@ dns:
     
 proxies:
   
-  - name: 🇸🇬1V2-Metfone × TIKTOK
+  - name: ❌1V2-Metfone × TIKTOK
     server: 104.16.125.32
     port: 443
     type: vmess
@@ -47,7 +47,7 @@ proxies:
         Host: v2-sg-1.v2ray.cc
     udp: true
 
-  - name: 🇸🇬2V2-Metfone × TIKTOK
+  - name: ❌2V2-Metfone × TIKTOK
     server: 104.16.125.32
     port: 443
     type: vmess
@@ -64,20 +64,33 @@ proxies:
         Host: sg-full.privateip.net
     udp: true
 
-  - name: 🇮🇩1TJ-Metfone × TIKTOK
+  - name: 🇭🇰1TJ-Metfone × TIKTOK
     type: trojan
     server: 104.16.125.32
     port: 443
-    password: 57202981-0705-49fe-8bea-5aea1ed62c74
+    password: 68a566f2-6166-438e-91e0-f62c83b310e2
     ws: false
     udp: true
     skip-cert-verify: true
     network: ws
-    ws-path: /howdy
+    ws-path: /BoyZin018
     sni: hk1.safecdn.site
     alpn:
 
-  - name: 🇺🇸2TJ-Metfone × TIKTOK 30 GB
+  - name: 🇭🇰2TJ-Metfone × TIKTOK
+    type: trojan
+    server: 104.16.125.32
+    port: 443
+    password: 37503025-e3ad-48fe-ad49-4a122bd581f3
+    ws: false
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /BoyZin018
+    sni: hk1.safecdn.site
+    alpn:
+
+  - name: ❌2TJ-Metfone × TIKTOK 30 GB
     type: trojan
     server: 104.16.125.32
     port: 443
@@ -116,9 +129,10 @@ proxy-groups:
   - name: 🎮Metfone × TIKTOK
     type: select
     proxies:
-      - 🇸🇬1V2-Metfone × TIKTOK
-      - 🇸🇬2V2-Metfone × TIKTOK
-      - 🇮🇩1TJ-Metfone × TIKTOK
+      - ❌1V2-Metfone × TIKTOK
+      - ❌2V2-Metfone × TIKTOK
+      - 🇭🇰1TJ-Metfone × TIKTOK
+      - 🇭🇰2TJ-Metfone × TIKTOK
       - 🇺🇸2TJ-Metfone × TIKTOK 30 GB
   - name: 🎮FREE FIRE
     type: select
@@ -128,36 +142,40 @@ proxy-groups:
     type: select
     proxies:
       - PROXY AUTO♻️
-      - 🇸🇬1V2-Metfone × TIKTOK
-      - 🇸🇬2V2-Metfone × TIKTOK
-      - 🇮🇩1TJ-Metfone × TIKTOK
+      - ❌1V2-Metfone × TIKTOK
+      - ❌2V2-Metfone × TIKTOK
+      - 🇭🇰1TJ-Metfone × TIKTOK
+      - 🇭🇰2TJ-Metfone × TIKTOK
       - 🇰🇭V2-FREE FIRE
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
   - name: Auto-Fallback 🌀
     type: fallback
     proxies:
-      - 🇸🇬1V2-Metfone × TIKTOK
-      - 🇸🇬2V2-Metfone × TIKTOK
-      - 🇮🇩1TJ-Metfone × TIKTOK
+      - ❌1V2-Metfone × TIKTOK
+      - ❌2V2-Metfone × TIKTOK
+      - 🇭🇰1TJ-Metfone × TIKTOK
+      - 🇭🇰2TJ-Metfone × TIKTOK
       - 🇰🇭V2-FREE FIRE
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
   - name: PROXY AUTO♻️
     type: url-test
     proxies:
-      - 🇸🇬1V2-Metfone × TIKTOK
-      - 🇸🇬2V2-Metfone × TIKTOK
-      - 🇮🇩1TJ-Metfone × TIKTOK
+      - ❌1V2-Metfone × TIKTOK
+      - ❌2V2-Metfone × TIKTOK
+      - 🇭🇰1TJ-Metfone × TIKTOK
+      - 🇭🇰2TJ-Metfone × TIKTOK
       - 🇰🇭V2-FREE FIRE
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
   - name: ♻️AUTO
     type: url-test
     proxies:
-      - 🇸🇬1V2-Metfone × TIKTOK
-      - 🇸🇬2V2-Metfone × TIKTOK
-      - 🇮🇩1TJ-Metfone × TIKTOK
+      - ❌1V2-Metfone × TIKTOK
+      - ❌2V2-Metfone × TIKTOK
+      - 🇭🇰1TJ-Metfone × TIKTOK
+      - 🇭🇰2TJ-Metfone × TIKTOK
       - 🇰🇭V2-FREE FIRE
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
