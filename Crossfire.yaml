@@ -90,7 +90,7 @@ proxies:
     sni: hk1.safecdn.site
     alpn:
 
-  - name: ❌2TJ-Metfone × TIKTOK 30 GB
+  - name: ❌3TJ-Metfone × TIKTOK 30 GB
     type: trojan
     server: 104.16.125.32
     port: 443
@@ -133,7 +133,7 @@ proxy-groups:
       - ❌2V2-Metfone × TIKTOK
       - 🇭🇰1TJ-Metfone × TIKTOK
       - 🇭🇰2TJ-Metfone × TIKTOK
-      - 🇺🇸2TJ-Metfone × TIKTOK 30 GB
+      - ❌3TJ-Metfone × TIKTOK 30 GB
   - name: 🎮FREE FIRE
     type: select
     proxies:
