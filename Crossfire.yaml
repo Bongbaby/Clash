@@ -103,6 +103,21 @@ proxies:
     sni: usa.test3.net
     alpn:
 
+  - name: 🇸🇬1SS-Metfone × TIKTOK
+    type: ss
+    server: sni
+    port: 443
+    cipher: aes-256-gcm
+    password: 3e70ee36-9a6a-422c-a48d-47022174b60a
+    plugin: v2ray-plugin
+    plugin-opts:
+    mode: websocket
+    tls: true
+    skip-cert-verify: true
+    host: uk1-ssws.xraysrv.sbs
+    path: "/shadowsocks"
+    mux: true
+
   - name: 🇰🇭V2-FREE FIRE
     server: 220.158.233.184
     port: 10000
@@ -134,6 +149,7 @@ proxy-groups:
       - 🇭🇰1TJ-Metfone × TIKTOK
       - 🇭🇰2TJ-Metfone × TIKTOK
       - ❌3TJ-Metfone × TIKTOK 30 GB
+      - 🇸🇬1SS-Metfone × TIKTOK
   - name: 🎮FREE FIRE
     type: select
     proxies:
@@ -144,6 +160,7 @@ proxy-groups:
       - PROXY AUTO♻️
       - ❌1V2-Metfone × TIKTOK
       - 🇭🇰1TJ-Metfone × TIKTOK
+      - 🇸🇬1SS-Metfone × TIKTOK
       - 🇰🇭V2-FREE FIRE
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
@@ -152,6 +169,7 @@ proxy-groups:
     proxies:
       - ❌1V2-Metfone × TIKTOK
       - 🇭🇰1TJ-Metfone × TIKTOK
+      - 🇸🇬1SS-Metfone × TIKTOK
       - 🇰🇭V2-FREE FIRE
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
@@ -160,6 +178,7 @@ proxy-groups:
     proxies:
       - ❌1V2-Metfone × TIKTOK
       - 🇭🇰1TJ-Metfone × TIKTOK
+      - 🇸🇬1SS-Metfone × TIKTOK
       - 🇰🇭V2-FREE FIRE
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
