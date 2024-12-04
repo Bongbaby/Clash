@@ -30,38 +30,38 @@ dns:
     
 proxies:
   
-  - name: ❌1V2-Metfone × TIKTOK
+  - name: 🇸🇬1V2-Metfone × TIKTOK
     server: 104.16.125.32
     port: 443
     type: vmess
-    uuid: 7772bb24-976a-45ca-aa76-f4f1b7f50923
+    uuid: 1c5ffdc0-b1d6-11ef-b330-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: v2-sg-1.v2ray.cc
+    servername: sg-1.hihu.net
     network: ws
     ws-opts:
-      path: /anything/freevpn.us-Bffvcdcf/vmess
+      path: /BoyZin018
       headers:
-        Host: v2-sg-1.v2ray.cc
+        Host: sg-1.hihu.net
     udp: true
 
-  - name: ❌2V2-Metfone × TIKTOK
+  - name: 🇸🇬2V2-Metfone × TIKTOK
     server: 104.16.125.32
     port: 443
     type: vmess
-    uuid: 1b65f1df-303d-441a-8c3a-34d919eca726
+    uuid: c77eab70-b1d6-11ef-b433-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg-full.privateip.net
+    servername: sg-1.hihu.net
     network: ws
     ws-opts:
-      path: /RACEVPN
+      path: /BoyZin018
       headers:
-        Host: sg-full.privateip.net
+        Host: sg-1.hihu.net
     udp: true
 
   - name: 🇭🇰1TJ-Metfone × TIKTOK
@@ -90,17 +90,30 @@ proxies:
     sni: hk1.safecdn.site
     alpn:
 
-  - name: ❌3TJ-Metfone × TIKTOK 30 GB
+  - name: 🇯🇵🇺🇸3TJ-Metfone × TIKTOK
     type: trojan
     server: 104.16.125.32
     port: 443
-    password: 0347e070-ab58-11ef-b07d-1239d0255272
+    password: 5e2bb4d7-616d-4467-baec-d1ac3287fe15
     ws: false
     udp: true
     skip-cert-verify: true
     network: ws
-    ws-path: /howdy
-    sni: usa.test3.net
+    ws-path: /BoyZin018
+    sni: us1.trojanvpn.xyz
+    alpn:
+
+  - name: 🇺🇸🇬🇧4TJ-Metfone × TIKTOK
+    type: trojan
+    server: 104.16.125.32
+    port: 443
+    password: 814a09e2-badc-440c-b317-0177d2a5b670
+    ws: false
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /BoyZin018
+    sni: uk1.trojanvpn.xyz
     alpn:
 
   - name: 🇸🇬1SS-Metfone × TIKTOK
@@ -140,11 +153,12 @@ proxy-groups:
   - name: 🎮Metfone × TIKTOK
     type: select
     proxies:
-      - ❌1V2-Metfone × TIKTOK
-      - ❌2V2-Metfone × TIKTOK
+      - 🇸🇬1V2-Metfone × TIKTOK
+      - 🇸🇬2V2-Metfone × TIKTOK
       - 🇭🇰1TJ-Metfone × TIKTOK
       - 🇭🇰2TJ-Metfone × TIKTOK
-      - ❌3TJ-Metfone × TIKTOK 30 GB
+      - 🇯🇵🇺🇸3TJ-Metfone × TIKTOK
+      - 🇺🇸🇬🇧4TJ-Metfone × TIKTOK
       - 🇸🇬1SS-Metfone × TIKTOK
   - name: 🎮FREE FIRE
     type: select
