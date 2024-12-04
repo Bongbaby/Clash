@@ -64,7 +64,7 @@ proxies:
         Host: sg-1.hihu.net
     udp: true
 
-  - name: 🇹🇭3V2-Metfone × TIKTOK
+  - name: 🇹🇭3V2,30ថ្ងៃ-Metfone × TIKTOK
     server: 104.16.125.32
     port: 443
     type: vmess
@@ -172,7 +172,7 @@ proxy-groups:
     proxies:
       - 🇸🇬1V2-Metfone × TIKTOK
       - 🇸🇬2V2-Metfone × TIKTOK
-      - 🇹🇭3V2-Metfone × TIKTOK
+      - 🇹🇭3V2,30ថ្ងៃ-Metfone × TIKTOK
       - 🇭🇰1TJ-Metfone × TIKTOK
       - 🇭🇰2TJ-Metfone × TIKTOK
       - 🇯🇵🇺🇸3TJ-Metfone × TIKTOK
