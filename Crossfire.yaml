@@ -168,7 +168,7 @@ proxy-groups:
     type: select
     proxies:
       - PROXY AUTO♻️
-      - ❌1V2-Metfone × TIKTOK
+      - 🇸🇬1V2-Metfone × TIKTOK
       - 🇭🇰1TJ-Metfone × TIKTOK
       - 🇰🇭V2-FREE FIRE
     url: 'http://www.gstatic.com/generate_204'
@@ -176,7 +176,7 @@ proxy-groups:
   - name: Auto-Fallback 🌀
     type: fallback
     proxies:
-      - ❌1V2-Metfone × TIKTOK
+      - 🇸🇬1V2-Metfone × TIKTOK
       - 🇭🇰1TJ-Metfone × TIKTOK
       - 🇰🇭V2-FREE FIRE
     url: 'http://www.gstatic.com/generate_204'
@@ -184,7 +184,7 @@ proxy-groups:
   - name: PROXY AUTO♻️
     type: url-test
     proxies:
-      - ❌1V2-Metfone × TIKTOK
+      - 🇸🇬1V2-Metfone × TIKTOK
       - 🇭🇰1TJ-Metfone × TIKTOK
       - 🇰🇭V2-FREE FIRE
     url: 'http://www.gstatic.com/generate_204'
@@ -192,7 +192,7 @@ proxy-groups:
   - name: ♻️AUTO
     type: url-test
     proxies:
-      - ❌1V2-Metfone × TIKTOK
+      - 🇸🇬1V2-Metfone × TIKTOK
       - 🇭🇰1TJ-Metfone × TIKTOK
       - 🇰🇭V2-FREE FIRE
     url: 'http://www.gstatic.com/generate_204'
