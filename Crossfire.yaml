@@ -73,7 +73,6 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: premium.angkorssh.shop
     network: ws
     ws-opts:
       path: /
