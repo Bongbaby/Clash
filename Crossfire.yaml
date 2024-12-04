@@ -116,7 +116,7 @@ proxies:
     sni: uk1.trojanvpn.xyz
     alpn:
 
-  - name: 🇸🇬1SS-Metfone × TIKTOK
+  - name: ❌1SS-Metfone × TIKTOK
     type: ss
     server: sg-ss.sshmax.xyz
     port: 8139
@@ -159,7 +159,7 @@ proxy-groups:
       - 🇭🇰2TJ-Metfone × TIKTOK
       - 🇯🇵🇺🇸3TJ-Metfone × TIKTOK
       - 🇺🇸🇬🇧4TJ-Metfone × TIKTOK
-      - 🇸🇬1SS-Metfone × TIKTOK
+      - ❌1SS-Metfone × TIKTOK
   - name: 🎮FREE FIRE
     type: select
     proxies:
