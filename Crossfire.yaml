@@ -73,12 +73,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg-1.hihu.net
+    servername: v2-sg-1.v2s.top
     network: ws
     ws-opts:
-      path: /BoyZin018
+      path: /anything/freevpn.us-Sigjov/vmess
       headers:
-        Host: sg-1.hihu.net
+        Host: v2-sg-1.v2s.top
     udp: true
 
   - name: 🇹🇭3V2,30ថ្ងៃ-Metfone × TIKTOK
