@@ -51,6 +51,23 @@ proxies:
     server: 104.16.125.32
     port: 443
     type: vmess
+    uuid: 9bde3178-1935-41a7-9211-88ab937f1576
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: v2-sg-1.v2s.top
+    network: ws
+    ws-opts:
+      path: /anything/freevpn.us-Sigjov/vmess
+      headers:
+        Host: v2-sg-1.v2s.top
+    udp: true
+
+  - name: 🇸🇬3V2-Metfone × TIKTOK
+    server: 104.16.125.32
+    port: 443
+    type: vmess
     uuid: c77eab70-b1d6-11ef-b433-205c6d5f5d78
     alterId: 0
     cipher: auto
@@ -85,7 +102,7 @@ proxies:
     type: trojan
     server: 104.16.125.32
     port: 443
-    password: 68a566f2-6166-438e-91e0-f62c83b310e2
+    password: 7772bb24-976a-45ca-aa76-f4f1b7f50923
     ws: false
     udp: true
     skip-cert-verify: true
@@ -172,6 +189,7 @@ proxy-groups:
     proxies:
       - 🇸🇬1V2-Metfone × TIKTOK
       - 🇸🇬2V2-Metfone × TIKTOK
+      - 🇸🇬3V2-Metfone × TIKTOK
       - 🇹🇭3V2,30ថ្ងៃ-Metfone × TIKTOK
       - 🇭🇰1TJ-Metfone × TIKTOK
       - 🇭🇰2TJ-Metfone × TIKTOK
