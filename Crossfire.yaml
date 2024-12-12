@@ -68,7 +68,7 @@ proxies:
     server: 104.16.125.32
     port: 443
     type: vmess
-    uuid: c77eab70-b1d6-11ef-b433-205c6d5f5d78
+    uuid: 7772bb24-976a-45ca-aa76-f4f1b7f50923
     alterId: 0
     cipher: auto
     tls: true
@@ -102,7 +102,7 @@ proxies:
     type: trojan
     server: 104.16.125.32
     port: 443
-    password: 7772bb24-976a-45ca-aa76-f4f1b7f50923
+    password: 9bde3178-1935-41a7-9211-88ab937f1576
     ws: false
     udp: true
     skip-cert-verify: true
