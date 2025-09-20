@@ -232,10 +232,10 @@ proxies:
 
   - name: 🇸🇬SS-MLBB1
     type: ss
-    server: sg-ss.sshmax.xyz
+    server: hk1.opensocks.site
     port: 8139
     cipher: chacha20-ietf-poly1305
-    password: ZGE5MjEz
+    password: OTgwN
     plugin: obfs
     plugin-opts:
        mode: http
