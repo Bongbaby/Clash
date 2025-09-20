@@ -239,7 +239,7 @@ proxies:
     plugin: obfs
     plugin-opts:
        mode: http
-       host: m.mobilelegends.com
+       host: zerobalance.smart.com.kh
 
   - name: 🇰🇭V2-PUBG1
     server: 220.158.233.184
